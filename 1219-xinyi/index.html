@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#8b1e2d">
+<title>12/19 信義區親子一日遊</title>
+<style>
+:root{--red:#8b1e2d;--gold:#c9a24a;--green:#2f6b4f;--bg:#faf6f0;--card:#fff;--ink:#2a2420;--mute:#7a6f66;--line:#ece4d9}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:-apple-system,"PingFang TC","Noto Sans TC","Microsoft JhengHei",sans-serif;background:var(--bg);color:var(--ink);font-size:16px;line-height:1.6;-webkit-text-size-adjust:100%}
+.wrap{max-width:560px;margin:0 auto;padding:0 16px 40px}
+header{background:linear-gradient(160deg,#8b1e2d,#5c1220);color:#fff;padding:28px 20px 24px;border-radius:0 0 24px 24px;margin:0 -16px 20px}
+header .tag{display:inline-block;background:rgba(255,255,255,.18);border-radius:99px;padding:2px 12px;font-size:13px;margin-bottom:10px}
+header h1{font-size:26px;line-height:1.3;margin-bottom:8px}
+header p{font-size:15px;opacity:.92}
+h2{font-size:20px;margin:28px 0 12px;display:flex;align-items:center;gap:8px}
+h2 .e{font-size:22px}
+.card{background:var(--card);border-radius:16px;padding:16px;margin-bottom:12px;box-shadow:0 1px 3px rgba(0,0,0,.06);border:1px solid var(--line)}
+.tabs{display:flex;gap:8px;position:sticky;top:0;background:var(--bg);padding:10px 0;z-index:5}
+.tabs button{flex:1;border:2px solid var(--red);background:#fff;color:var(--red);font-size:16px;font-weight:600;border-radius:12px;padding:10px 4px;font-family:inherit}
+.tabs button.on{background:var(--red);color:#fff}
+.combo-note{font-size:14px;color:var(--mute);margin:4px 2px 12px}
+.tl{position:relative;padding-left:22px}
+.tl:before{content:"";position:absolute;left:7px;top:6px;bottom:6px;width:2px;background:var(--line)}
+.ev{position:relative;margin-bottom:12px}
+.ev:before{content:"";position:absolute;left:-20px;top:20px;width:12px;height:12px;border-radius:50%;background:var(--gold);border:2px solid #fff;box-shadow:0 0 0 2px var(--gold)}
+.ev.meal:before{background:var(--red);box-shadow:0 0 0 2px var(--red)}
+.ev.rest:before{background:var(--green);box-shadow:0 0 0 2px var(--green)}
+.ev .t{font-size:14px;font-weight:700;color:var(--red)}
+.ev .n{font-size:17px;font-weight:600}
+.ev .d{font-size:14px;color:var(--mute);margin-top:2px}
+.badge{display:inline-block;font-size:12px;border-radius:6px;padding:1px 7px;margin-left:4px;vertical-align:2px}
+.b-meal{background:#f6e3e6;color:var(--red)}
+.b-new{background:#fff3d6;color:#8a6410}
+.b-rest{background:#e2f0e8;color:var(--green)}
+.dish{display:flex;justify-content:space-between;gap:10px;padding:10px 0;border-bottom:1px solid var(--line)}
+.dish:last-child{border-bottom:0}
+.dish .nm{font-weight:600}
+.dish .nt{font-size:13px;color:var(--mute)}
+.dish .pr{white-space:nowrap;font-weight:700;color:var(--red)}
+.avoid{background:#fdf1f1;border-radius:12px;padding:12px 14px;font-size:14px;margin-top:10px}
+.avoid b{color:#b42318}
+.est{font-size:14px;color:var(--mute);margin-top:8px}
+.rest-h{display:flex;justify-content:space-between;align-items:baseline;gap:8px}
+.rest-h h3{font-size:18px}
+.rest-h span{font-size:13px;color:var(--mute);white-space:nowrap}
+details{background:var(--card);border-radius:16px;margin-bottom:12px;border:1px solid var(--line);box-shadow:0 1px 3px rgba(0,0,0,.06)}
+details summary{padding:16px;font-size:17px;font-weight:700;list-style:none;cursor:pointer;display:flex;justify-content:space-between}
+details summary::-webkit-details-marker{display:none}
+details summary:after{content:"＋";color:var(--red)}
+details[open] summary:after{content:"－"}
+details .in{padding:0 16px 16px}
+.callout{background:#fff8e6;border-left:4px solid var(--gold);border-radius:10px;padding:12px 14px;font-size:14px;margin:10px 0}
+.btn{display:block;text-align:center;background:var(--red);color:#fff;text-decoration:none;border-radius:12px;padding:12px;font-weight:600;margin-top:10px}
+.btn.ghost{background:#fff;color:var(--red);border:2px solid var(--red)}
+.row2{display:flex;gap:8px}.row2 .btn{flex:1}
+ul.tips{padding-left:18px;font-size:15px}
+ul.tips li{margin-bottom:6px}
+footer{font-size:12px;color:var(--mute);margin-top:28px;line-height:1.7}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header>
+  <span class="tag">2026/12/19（六）</span>
+  <h1>🎄 信義區親子一日遊</h1>
+  <p>兩個家庭 4 大 3 小（3～5 歲）<br>午晚餐先訂位・下午看聖誕布置・19:00 前回家</p>
+</header>
+
+<h2><span class="e">🍽️</span>選一個午晚餐組合</h2>
+<div class="tabs">
+  <button class="on" data-c="A">A 推薦</button>
+  <button data-c="B">B</button>
+  <button data-c="C">C</button>
+</div>
+<p class="combo-note" id="note"></p>
+<div class="card"><div class="tl" id="tl"></div></div>
+<div class="callout">新光三越 A11 聖誕樹 16:30 起每 15 分鐘一場聲光秀，整點與半點會飄雪。統一時代 Purple Wish 燈光秀 18:00～21:00，每整點、半點一場。</div>
+
+<h2><span class="e">🧸</span>貴婦百貨中庭</h2>
+<div class="card">
+  <div class="rest-h"><h3>BELLAVITA 寶麗廣塲 1F 中庭</h3><span>松仁路 28 號</span></div>
+  <p style="margin-top:8px">Dior 薑餅聖誕樹 11/22 撤展後，去年中庭換成<b>巨型 Bello Bear 聖誕小熊加放大版聖誕餐桌</b>，有麵包、薑餅人、甜點造景，小孩可以坐進棉花糖可可杯拍照，免費參觀。</p>
+  <div class="callout" style="margin-bottom:0">⚠️ 這是 2025 年的布置（展到隔年 1/4，12/12 維護日不開放）。2026 年的接檔布置還沒公告，12 月初要再確認。</div>
+</div>
+
+<h2><span class="e">📋</span>點菜清單</h2>
+
+<details open>
+<summary>YABI KITCHEN・Dream Plaza 4F</summary>
+<div class="in">
+  <p style="font-size:14px;color:var(--mute)">南洋料理。帶小孩一律單點（套餐咖哩不能調辣），點餐時說「完全不放辣椒」。</p>
+  <div class="dish"><div><div class="nm">噴香酥炸檸檬魚</div><div class="nt">無刺、辣醬另裝，最推</div></div><div class="pr">現場價</div></div>
+  <div class="dish"><div><div class="nm">YABI 海南雞</div><div class="nt">去骨雞腿，辣醬另沾</div></div><div class="pr">約 380</div></div>
+  <div class="dish"><div><div class="nm">棒棒香茅蝦</div><div class="nt">附酸甜醬</div></div><div class="pr">現場價</div></div>
+  <div class="dish"><div><div class="nm">檳城香炒粿條</div><div class="nt">主食</div></div><div class="pr">現場價</div></div>
+  <div class="dish"><div><div class="nm">香檸空心菜</div><div class="nt">不辣版青菜</div></div><div class="pr">現場價</div></div>
+  <div class="dish"><div><div class="nm">薑黃飯</div><div class="nt">依人數計，可續</div></div><div class="pr">現場價</div></div>
+  <div class="dish"><div><div class="nm">越香咖啡排骨</div><div class="nt">大人加點</div></div><div class="pr">現場價</div></div>
+  <div class="dish"><div><div class="nm">楊枝甘露</div><div class="nt">甜點</div></div><div class="pr">現場價</div></div>
+  <div class="avoid"><b>別點：</b>櫻花蝦炒空心菜（非常辣）、黑白胡椒蝦、冬陰功湯、咖哩類</div>
+  <p class="est">預估 3,000～3,500 元（含服務費，依食記推估）</p>
+</div>
+</details>
+
+<details>
+<summary>漢來上海湯包・Dream Plaza B2</summary>
+<div class="in">
+  <p style="font-size:14px;color:var(--mute)">價格取自漢來其他分店 2026 年菜單，此店可能略有差異。</p>
+  <div class="dish"><div><div class="nm">招牌小籠湯包 ×3 籠</div><div class="nt">6 顆／籠，放涼再給小孩</div></div><div class="pr">140／籠</div></div>
+  <div class="dish"><div><div class="nm">蝦肉生煎湯包</div><div class="nt">底部酥脆，有蔥花</div></div><div class="pr">185</div></div>
+  <div class="dish"><div><div class="nm">排骨蛋炒飯 ×2</div><div class="nt">招牌，排骨切小塊</div></div><div class="pr">390／份</div></div>
+  <div class="dish"><div><div class="nm">原盅燉雞湯</div><div class="nt">清甜，分小碗</div></div><div class="pr">220</div></div>
+  <div class="dish"><div><div class="nm">脆皮炸春捲</div><div class="nt">3 條，內含蝦</div></div><div class="pr">185</div></div>
+  <div class="dish"><div><div class="nm">清炒絲瓜</div><div class="nt">青菜</div></div><div class="pr">現場價</div></div>
+  <div class="dish"><div><div class="nm">奶皇南瓜團子 ×2</div><div class="nt">小孩會喜歡</div></div><div class="pr">100／份</div></div>
+  <div class="avoid"><b>別點：</b>麻辣小籠湯包、紅油抄手、酸辣湯、口水雞；醉雞含酒，只給大人</div>
+  <p class="est">預估約 2,500 元（含一成服務費）</p>
+</div>
+</details>
+
+<details>
+<summary>紅豆食府・新光三越 A9 7F</summary>
+<div class="in">
+  <p style="font-size:14px;color:var(--mute)">上海菜，有 2 間包廂。吃到飽只在週一到週四，週六單點。</p>
+  <div class="dish"><div><div class="nm">清炒蝦仁</div><div class="nt">不辣，必點</div></div><div class="pr">620</div></div>
+  <div class="dish"><div><div class="nm">蟹黃芙蓉豆腐</div><div class="nt">招牌，軟嫩</div></div><div class="pr">650</div></div>
+  <div class="dish"><div><div class="nm">無錫排骨</div><div class="nt">鹹甜下飯</div></div><div class="pr">550</div></div>
+  <div class="dish"><div><div class="nm">蝦仁炒飯 ×2</div><div class="nt">主食</div></div><div class="pr">320／份</div></div>
+  <div class="dish"><div><div class="nm">蘇式小籠包</div><div class="nt">小孩主力</div></div><div class="pr">現場價</div></div>
+  <div class="dish"><div><div class="nm">蘿蔔酥餅</div><div class="nt">限量，早點點</div></div><div class="pr">現場價</div></div>
+  <div class="dish"><div><div class="nm">東坡肉佐餅</div><div class="nt">大人</div></div><div class="pr">390</div></div>
+  <div class="dish"><div><div class="nm">紅豆鬆糕</div><div class="nt">甜點</div></div><div class="pr">現場價</div></div>
+  <div class="avoid"><b>別點：</b>宮保雞丁、左宗棠雞、乾煸四季豆、川味水煮牛</div>
+  <p class="est">預估 4,500～5,000 元（含一成服務費）</p>
+</div>
+</details>
+
+<h2><span class="e">📞</span>訂位</h2>
+<div class="callout">⏳ 狀態：尚未訂位（11/16）。訂位時備註<b>三張兒童座椅、7 人同一桌</b>。</div>
+<div class="card">
+  <div class="rest-h"><h3>YABI KITCHEN</h3><span>線上 1～8 人</span></div>
+  <div class="row2"><a class="btn" href="https://inline.app/booking/-LUmi1gySkE40tD7WoyA:inline-live-2a466/-OTdmxOXERGKBiqp2yFs?language=zh-tw">線上訂位</a><a class="btn ghost" href="tel:0227226258">撥電話</a></div>
+</div>
+<div class="card">
+  <div class="rest-h"><h3>漢來上海湯包</h3><span>晚餐 17:00 起</span></div>
+  <div class="row2"><a class="btn" href="https://inline.app/booking/-LSCfVFIvLhli7-9kGGD:inline-live-2a466/-OUYQwJb_XDgDHwj89TU">線上訂位</a><a class="btn ghost" href="tel:0227220892">撥電話</a></div>
+</div>
+<div class="card">
+  <div class="rest-h"><h3>紅豆食府 信義店</h3><span>午餐末點 14:00</span></div>
+  <div class="row2"><a class="btn" href="https://rsv.skm.com.tw/groups/skm-xinyi/companies/-KsqaUb1U_CGncVPQV7m/restaurants/-KsqaUbvMW4rE7XJK17l/booking">線上訂位</a><a class="btn ghost" href="tel:0287892929">撥電話</a></div>
+</div>
+
+<h2><span class="e">🧭</span>出發前提醒</h2>
+<div class="card">
+<ul class="tips">
+  <li><b>停車：</b>統一精工大樓停車場（松高路 11 號），假日每半小時 60 元，晚上出場會塞；搭捷運到市政府站較輕鬆。</li>
+  <li><b>廁所：</b>Dream Plaza 3F 有親子廁所和哺集乳室。</li>
+  <li><b>集合點：</b>走散就到統一時代夢廣場聖誕樹下集合，小孩身上放家長電話。</li>
+  <li><b>盲盒：</b>統一麵包活動每場限量 30 個，提早到。</li>
+  <li><b>天氣：</b>傍晚轉涼帶外套；遇雨改室內逛。</li>
+  <li>101 外牆聖誕點燈只在 12/24～25，12/19 看不到。</li>
+</ul>
+</div>
+
+<footer>資料查詢日：2026/11/16。價格、營業時間與布置以店家及百貨當天公告為準。<br>來源：inline、新光三越訂位頁、Uber Eats 漢來菜單、新光三越紅豆食府外帶菜單、abic 愛貝客、LINE TODAY 景點家、食尚玩家、經濟日報，以及 YABI 與紅豆食府食記。</footer>
+</div>
+
+<script>
+const notes={
+ A:"午 YABI、晚 漢來：兩餐都在 Dream Plaza，南洋加上海不重複，最省力。",
+ B:"午 紅豆食府、晚 漢來：午餐較有質感，但兩餐都是上海菜。",
+ C:"午 紅豆食府、晚 YABI：上海加南洋，晚餐在 4F，下樓看燈近。"};
+const bella={t:"15:30",n:"貴婦百貨 Bello Bear 聖誕餐桌",d:"BELLAVITA 1F 中庭拍照（今年布置待確認）",k:"new"};
+const plans={
+ A:[{t:"11:30",n:"午餐 YABI KITCHEN",d:"Dream Plaza 4F",k:"meal"},
+    {t:"13:00",n:"博客來繪本區・推車午睡",d:"Dream Plaza 6F",k:"rest"},
+    {t:"14:00",n:"統一麵包盲盒活動",d:"統一時代，整點一場",k:""},
+    bella,
+    {t:"16:15",n:"新光三越空橋星星之海",d:"2F 空橋 A8～A11",k:""},
+    {t:"16:30",n:"A11 聖誕樹飄雪秀",d:"每 15 分鐘一場",k:""},
+    {t:"17:15",n:"晚餐 漢來上海湯包",d:"Dream Plaza B2",k:"meal"},
+    {t:"18:30",n:"Purple Wish 燈光秀",d:"統一時代夢廣場，B2 直通",k:""},
+    {t:"19:00",n:"回家",d:"",k:""}],
+ B:[{t:"11:30",n:"午餐 紅豆食府",d:"新光三越 A9 7F",k:"meal"},
+    {t:"13:00",n:"A9 B1 拍貼・2F 空橋燈廊",d:"新光三越",k:"rest"},
+    {t:"14:00",n:"統一麵包盲盒活動",d:"統一時代，整點一場",k:""},
+    {t:"15:00",n:"博客來繪本區休息",d:"Dream Plaza 6F",k:"rest"},
+    {t:"15:45",n:bella.n,d:bella.d,k:"new"},
+    {t:"16:30",n:"A11 聖誕樹飄雪秀",d:"每 15 分鐘一場",k:""},
+    {t:"17:15",n:"晚餐 漢來上海湯包",d:"Dream Plaza B2",k:"meal"},
+    {t:"18:30",n:"Purple Wish 燈光秀",d:"統一時代夢廣場",k:""},
+    {t:"19:00",n:"回家",d:"",k:""}],
+ C:[{t:"11:30",n:"午餐 紅豆食府",d:"新光三越 A9 7F",k:"meal"},
+    {t:"13:00",n:"A9 B1 拍貼・2F 空橋燈廊",d:"新光三越",k:"rest"},
+    {t:"14:00",n:"統一麵包盲盒活動",d:"統一時代，整點一場",k:""},
+    {t:"15:00",n:"博客來繪本區休息",d:"Dream Plaza 6F",k:"rest"},
+    {t:"15:45",n:bella.n,d:bella.d,k:"new"},
+    {t:"16:30",n:"A11 聖誕樹飄雪秀",d:"每 15 分鐘一場",k:""},
+    {t:"17:15",n:"晚餐 YABI KITCHEN",d:"Dream Plaza 4F",k:"meal"},
+    {t:"18:30",n:"Purple Wish 燈光秀",d:"統一時代夢廣場",k:""},
+    {t:"19:00",n:"回家",d:"",k:""}]};
+const label={meal:'<span class="badge b-meal">要訂位</span>',new:'<span class="badge b-new">新增</span>',rest:'<span class="badge b-rest">休息</span>'};
+function show(c){
+ document.querySelectorAll('.tabs button').forEach(b=>b.classList.toggle('on',b.dataset.c===c));
+ document.getElementById('note').textContent=notes[c];
+ document.getElementById('tl').innerHTML=plans[c].map(e=>`<div class="ev ${e.k}"><div class="t">${e.t}</div><div class="n">${e.n}${e.k?label[e.k]:''}</div>${e.d?`<div class="d">${e.d}</div>`:''}</div>`).join('');
+}
+document.querySelectorAll('.tabs button').forEach(b=>b.onclick=()=>show(b.dataset.c));
+show('A');
+</script>
+</body>
+</html>
