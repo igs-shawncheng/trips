@@ -95,6 +95,7 @@ License texts:
   CC BY 2.0     https://creativecommons.org/licenses/by/2.0/
   CC BY-SA 2.0  https://creativecommons.org/licenses/by-sa/2.0/
   CC BY-SA 3.0  https://creativecommons.org/licenses/by-sa/3.0/
+  CC BY 4.0     https://creativecommons.org/licenses/by/4.0/
   CC BY-SA 4.0  https://creativecommons.org/licenses/by-sa/4.0/
   CC0 1.0       https://creativecommons.org/publicdomain/zero/1.0/
 
@@ -119,3 +120,35 @@ b-zero-egg.webp
   https://commons.wikimedia.org/wiki/File:Zero-mark_Platform,_TRA_Shihkang_Station_20200122.jpg
   Date: 2020-01-22
 
+b-dam-scenic.webp
+  Source: Shihgang Dam 20241011.jpg
+  Author: S8321414
+  License: CC BY-SA 4.0
+  Date: 2024-10-11
+  https://commons.wikimedia.org/wiki/File:Shihgang_Dam_20241011.jpg
+  Note: Used as the Plan B hero and the main Shigang Dam photo. The earlier
+  b-shigang-dam.webp (Kai3952, 2020) remains in this folder but is not
+  currently shown on the page.
+
+b-lovers-bridge.webp
+  Source: 石岡情人木橋空拍圖.jpg
+  Author: Outlookxp
+  License: CC BY 4.0
+  Date: 2026-10-07
+  https://commons.wikimedia.org/wiki/File:石岡情人木橋空拍圖.jpg
+
+b-lovers-south.webp
+  Source: 石岡情人木橋南端.jpg
+  Author: Outlookxp
+  License: CC BY 4.0
+  Date: 2026-10-07
+  https://commons.wikimedia.org/wiki/File:石岡情人木橋南端.jpg
+
+a-101-lane.webp
+  Source: Christmas lane at Taipei 101, Dec 2024.jpg
+  Author: Ralff Nestor Nacor
+  License: CC BY-SA 4.0
+  Date: 2024-12-14
+  https://commons.wikimedia.org/wiki/File:Christmas_lane_at_Taipei_101,_Dec_2024.jpg
+  Note: 2024 Xinyi / Taipei 101 area Christmas lights; annual decorations change.
+  Not the Taipei 101 facade Christmas lighting (24–25 Dec only).
