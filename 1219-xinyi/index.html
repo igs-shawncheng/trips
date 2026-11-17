@@ -76,6 +76,13 @@ footer{font-size:12px;color:var(--mute);margin-top:28px;line-height:1.7}
 .cost div{display:flex;justify-content:space-between;gap:8px;padding:6px 0;border-bottom:1px dashed var(--line)}
 .cost div:last-child{border:0;font-weight:700}
 .hidden{display:none}
+
+.pick-tabs{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 12px}
+.pick-tabs button{flex:1 1 42%;border:2px solid var(--red);background:#fff;color:var(--red);font-size:14px;font-weight:700;border-radius:12px;padding:10px 8px;font-family:inherit;line-height:1.35;text-align:center}
+.pick-tabs button.on{background:var(--red);color:#fff}
+.pick-tabs button small{display:block;font-size:11px;font-weight:600;opacity:.88;margin-top:2px}
+.tag-top{display:inline-block;background:#fff3d6;color:#8a6410;font-size:11px;border-radius:6px;padding:1px 6px;margin-left:4px;vertical-align:2px}
+.meta{font-size:14px;color:var(--mute);margin-top:6px}
 </style>
 </head>
 <body>
@@ -193,62 +200,60 @@ footer{font-size:12px;color:var(--mute);margin-top:28px;line-height:1.7}
 
 <section id="planB" class="hidden">
 <h2><span class="e">🚲</span>后豐鐵馬道一日遊</h2>
-<p class="plan-intro">從台北早出發，高鐵轉台鐵到后里，租有兒童座的電動車，慢慢騎過九號隧道和花樑鋼橋。單程 5.8 公里，小孩節奏來回約一個上午加一個午後；東豐綠廊只建議再加 1～2 公里。17:15 在豐原吃晚餐，晚上搭高鐵回家。</p>
+<p class="plan-intro">兩家開車前往（預計兩台車），車停在后里端再來回騎。后豐單程 5.8 公里，小孩節奏加上拍照，來回剛好一個上午加一個午後；東豐綠廊只建議再加 1～2 公里。午餐可在豐原端附近吃，晚餐再開車到后里交流道附近，比較好回家。</p>
 
 <div class="facts">
   <div class="fact"><b>路線</b><span>后豐 5.8 公里</span></div>
   <div class="fact"><b>隧道（冬季）</b><span>06:00–18:00</span></div>
-  <div class="fact"><b>建議交通</b><span>高鐵＋台鐵</span></div>
-  <div class="fact"><b>訂票開賣</b><span>11/20（五）0:00</span></div>
+  <div class="fact"><b>建議交通</b><span>兩車自駕</span></div>
+  <div class="fact"><b>建議出發</b><span>07:30–08:00</span></div>
 </div>
 
 <h2><span class="e">🗺️</span>建議時程</h2>
 <div class="card"><div class="tl">
-  <div class="ev meal"><div class="t">07:31</div><div class="n">台北搭高鐵<span class="badge b-meal">要訂票</span></div><div class="d">0109 次，約 47 分，08:18 到台中（烏日）</div></div>
-  <div class="ev"><div class="t">08:58</div><div class="n">轉台鐵往后里</div><div class="d">高鐵站走到新烏日約 5～10 分；區間 3118 次，09:40 到后里。票價全票 63 元</div></div>
-  <div class="ev"><div class="t">10:00</div><div class="n">鐵馬哥租車出發</div><div class="d">后里站可叫接駁。預約電動車加兒童座，先量小孩身高體重</div></div>
-  <div class="ev"><div class="t">10:15</div><div class="n">九號隧道</div><div class="d">全長 1.2 公里，舊山線最長隧道，裡面涼、有照明。冬天請在 18:00 前通過</div></div>
-  <div class="ev"><div class="t">10:45</div><div class="n">花樑鋼橋</div><div class="d">跨大甲溪，長 382 公尺。橋上風大，握穩車把、給小孩加衣服</div></div>
-  <div class="ev rest"><div class="t">11:30</div><div class="n">豐原端小歇<span class="badge b-rest">休息</span></div><div class="d">可再往東豐綠廊騎 1～2 公里看榮町雜貨店，不要挑戰全程 13.6 公里</div></div>
-  <div class="ev meal"><div class="t">12:15</div><div class="n">午餐 ㄎㄠ一杯<span class="badge b-meal">要訂位</span></div><div class="d">豐東路 392 號，豐原台菜，有大圓桌。離鐵馬道豐原端還要一小段，向租車店問路或叫車</div></div>
-  <div class="ev"><div class="t">14:00</div><div class="n">原路騎回后里</div><div class="d">再走一次鋼橋和隧道，電動車較不累</div></div>
-  <div class="ev rest"><div class="t">15:30</div><div class="n">還車、休息<span class="badge b-rest">休息</span></div><div class="d">接駁回后里車站，轉台鐵到豐原只要 5～6 分</div></div>
-  <div class="ev meal"><div class="t">17:15</div><div class="n">晚餐 陶板屋豐原向陽店<span class="badge b-meal">要訂位</span></div><div class="d">向陽路 130 號 B1 之 2，週六 17:00 開始。離豐原車站步行約 300 公尺</div></div>
-  <div class="ev"><div class="t">18:23</div><div class="n">豐原搭台鐵到新烏日</div><div class="d">區間 2223 次，18:57 到；預留走路進高鐵站的時間</div></div>
-  <div class="ev meal"><div class="t">19:31</div><div class="n">高鐵回台北<span class="badge b-meal">要訂票</span></div><div class="d">0153 次，約 47 分，20:18 到台北</div></div>
+  <div class="ev"><div class="t">07:30</div><div class="n">桃園／台北出發</div><div class="d">兩台車走國道。龜山一帶順暢約 1.5 小時，台北出發約 1.5～2 小時。週末南下可能多 20～40 分，出發前看 1968</div></div>
+  <div class="ev"><div class="t">09:00</div><div class="n">抵達鐵馬哥、停車租車</div><div class="d">開到寺山路 91 號店門口，店家安排免費車位。先預約電動車加兒童座，小孩用原車的安全座椅</div></div>
+  <div class="ev"><div class="t">09:30</div><div class="n">九號隧道</div><div class="d">全長 1.2 公里，舊山線最長隧道，裡面涼、有照明。冬天請在 18:00 前通過</div></div>
+  <div class="ev"><div class="t">10:00</div><div class="n">花樑鋼橋</div><div class="d">跨大甲溪，長 382 公尺。橋上風大，握穩車把、給小孩加衣服</div></div>
+  <div class="ev rest"><div class="t">11:00</div><div class="n">豐原端小歇<span class="badge b-rest">休息</span></div><div class="d">可再往東豐綠廊騎 1～2 公里看榮町雜貨店，不要挑戰全程 13.6 公里</div></div>
+  <div class="ev meal" id="b-lunch-ev"><div class="t">12:00</div><div class="n">午餐<span class="badge b-meal">要訂位</span></div><div class="d" id="b-lunch-d"></div></div>
+  <div class="ev"><div class="t">13:45</div><div class="n">原路騎回后里</div><div class="d">車停在后里，一定要騎回來還車。再走一次鋼橋和隧道，電動車較不累</div></div>
+  <div class="ev rest"><div class="t">15:15</div><div class="n">還車、休息<span class="badge b-rest">休息</span></div><div class="d">在店裡喝口水、上廁所，再開車去吃晚餐</div></div>
+  <div class="ev meal" id="b-dinner-ev"><div class="t">17:15</div><div class="n">晚餐<span class="badge b-meal">要訂位</span></div><div class="d" id="b-dinner-d"></div></div>
+  <div class="ev"><div class="t">18:45</div><div class="n">上國道回家</div><div class="d">由后里交流道北上。週六傍晚桃竹路段可能塞車，可錯開或改走國 3。預計 20:30～21:30 回到桃園／台北</div></div>
 </div></div>
-<div class="callout">若想多睡一會兒：改搭 07:31 的下一檔也可，重點是讓高鐵抵達後，有 30 分鐘以上再轉台鐵。上面 08:58 的 3118 次就是為 08:18 抵達預留的。更早出發可搭 06:46 或 06:51 高鐵，轉 08:28 的 2144 次，09:09 到后里。</div>
+<div class="callout">台北出發若預估會較晚到，可改 07:30 出門，把租車延到 09:30～10:00，午餐仍訂 12:00 以後。車停后里就來回騎，不要甲租乙還把車留在一端。</div>
 
-<h2><span class="e">🚆</span>交通與訂票</h2>
+<h2><span class="e">🚗</span>開車與停車</h2>
 <div class="card">
-  <div class="rest-h"><h3>建議：高鐵＋台鐵</h3><span>對號座、較穩</span></div>
-  <p style="margin-top:8px">台北→台中最快約 47 分，標準車廂全票 700 元、兒童票 350 元。未滿 12 歲可買兒童票；身高未滿 115 公分且不佔座可免費，但這次車程不短，建議三個小孩都訂座位。</p>
-  <p style="margin-top:8px">台中高鐵站與台鐵新烏日相連。新烏日→后里區間約 40～48 分，全票 63 元、自強 99 元。多數對號自強<b>不停后里</b>，不要指望台鐵直達對號車。</p>
-  <div class="callout">📅 12/19 是週六。高鐵可預訂 29 天內（含當日），且週五、週六可訂到四週後的週日；台鐵是乘車前 28 天，週五可一次訂到四週後的週五至週日。因此<b>高鐵與台鐵都可從 11/20（五）0:00 開始訂 12/19 的票</b>。若只按 28 天回推，則是 11/21。</div>
-  <div class="callout" style="background:#fdf1f1">⚠️ 高鐵單筆去回程最多各 5 張，7 人要拆成兩筆。早鳥限標準車廂單程全票，最晚售至乘車日前 5 日（含），也就是 12/14 前還有機會買到 65／8／9 折（台北–台中約 455、560、630 元），請分開訂去程和回程。</div>
-  <div class="row2"><a class="btn" href="https://irs.thsrc.com.tw/IMINT/">高鐵訂票</a><a class="btn ghost" href="https://www.railway.gov.tw/tra-tip-web/tip">台鐵訂票</a></div>
+  <div class="rest-h"><h3>建議路線</h3><span>國 1 較直</span></div>
+  <p style="margin-top:8px">桃園龜山、林口：國 1 林口交流道南下，至<b>后里交流道（160K）</b>下，接甲后路或三豐路再轉馬場路。鐵馬哥指引是「馬場路開到底，面對后里馬場右轉」，寺山路 91 號。</p>
+  <p style="margin-top:8px">從台北也可走國 1 南下；或走國 3 到新竹系統再轉國 1。后里交流道到店約 10～15 分。</p>
+  <p style="margin-top:8px">車程：龜山一帶順暢約 1 小時 25 分～1.5 小時（約 112 公里）；台北出發官方寫走國 1 到台中約 2～2.5 小時，后里比市區稍北，多估 1.5～2 小時。12/19 是普通週六不是連假，但仍可能有出遊車潮，尤其國 1 五股–林口、桃竹路段。出發前用<a href="https://1968.freeway.gov.tw/sapp">高速公路 1968</a>看即時路況和旅行時間預測。</p>
+  <div class="callout">👶 3～5 歲都要使用適合的兒童安全座椅或增高墊，兩台車都先裝好，不要讓小孩坐前座。</div>
 </div>
 <div class="card">
-  <div class="rest-h"><h3>備案：台鐵直達后里</h3><span>較省、無對號</span></div>
-  <p style="margin-top:8px">區間快 2007 次約 07:25 自台北開、09:49 到后里，全票 284 元，車程約 2 小時 24 分。這是非對號車，週六可能站票，帶三個小孩較辛苦，只建議當成備案。</p>
+  <div class="rest-h"><h3>停車（首選鐵馬哥）</h3><span>店內免費</span></div>
+  <p style="margin-top:8px">鐵馬哥官網寫店內有<b>免費停車</b>，把車開到店門口由店員安排。預約時先說兩台車、大概 09:00 到。旁邊另有收費停車場，費率未公開，以現場為準。</p>
+  <p style="margin-top:8px">備案：后豐鐵馬道公有停車場（朴子街 177 巷附近）與后里東站停車場，台灣騎跡列為起點周邊停車，評論多寫免費，但假日車位不一定有，費率以現場公告為準。后里馬場園區停車是計次 100 元，不是第一選擇。</p>
 </div>
 
 <h2><span class="e">🚴</span>租車（先打電話留車）</h2>
 <div class="callout">3～5 歲還不能自己踩，要坐兒童座或親子車。週六屬例假日，<b>三輪以上車輛（含四人電動敞篷車）不能上鐵馬道</b>。請租單人／雙人電動車並加裝兒童座。兒童座身高體重限制請電話確認。</div>
 <div class="card">
   <div class="rest-h"><h3>鐵馬哥租車中心（首選）</h3><span>鐵馬道入口旁</span></div>
-  <p style="margin-top:8px">寺山路 91 號。后里車站有接駁，店就在車道起點。官網價：親子車 200 元；單人電動 400～500 元／兩小時；雙人電動 600～700 元／兩小時。電動車公會限時 2 小時，鐵馬哥多送 1 小時。可加裝兒童座（加價請現場問）。</p>
+  <p style="margin-top:8px">寺山路 91 號，店就在車道起點，開車最方便。官網價：親子車 200 元；單人電動 400～500 元／兩小時；雙人電動 600～700 元／兩小時。電動車公會限時 2 小時，鐵馬哥多送 1 小時。可加裝兒童座（加價請現場問）。</p>
   <p style="margin-top:8px">7 人可問：兩台雙人電動加兒童座，再加一台單人電動加兒童座。冬季假日有資料寫 07:00–17:30，請先確認，並在 16:30 前還車較保險。</p>
   <div class="row2"><a class="btn" href="tel:0910585579">撥 0910-585-579</a><a class="btn ghost" href="https://tmgcycle.net/">官方網站</a></div>
 </div>
 <div class="card">
   <div class="rest-h"><h3>奇典租車行</h3><span>后里車站旁</span></div>
-  <p style="margin-top:8px">甲后路一段 21 號，出站就到，可甲租乙還（常見是還到石岡，不適合這次小孩行程）。官網觀光頁寫營業 08:00–19:00，電話 0930-681-103、0961-280-877。有親子電動與前方兒童座，細節以電話為準。</p>
+  <p style="margin-top:8px">甲后路一段 21 號。可甲租乙還，但車如果停在后里，還是要騎回來，這個服務這次用不到。官網觀光頁寫營業 08:00–19:00，電話 0930-681-103、0961-280-877。</p>
   <a class="btn" href="tel:0930681103">撥 0930-681-103</a>
 </div>
 <div class="card">
   <div class="rest-h"><h3>隧道口租車中心</h3><span>近后里馬場</span></div>
-  <p style="margin-top:8px">寺山路 39 號，0933-191-246。官網有電動親子車：加寬舒適版 500 元、雙載式 700 元（後座適合較大小孩），另有電動協力車 600 元。</p>
+  <p style="margin-top:8px">寺山路 39 號，0933-191-246。官網有電動親子車：加寬舒適版 500 元、雙載式 700 元，另有電動協力車 600 元。同樣先問有沒有停車位。</p>
   <a class="btn" href="tel:0933191246">撥 0933-191-246</a>
 </div>
 
@@ -260,76 +265,60 @@ footer{font-size:12px;color:var(--mute);margin-top:28px;line-height:1.7}
   <div class="hl"><h3>東豐綠廊（加碼）</h3><p class="d" style="color:var(--mute)">豐原端接著就是東豐自行車綠廊，全長 13.6 公里，兩條合起來約 19 公里。小孩行程只建議再騎 1～2 公里就回頭，不要騎到石岡或東勢。</p></div>
 </div>
 
-<h2><span class="e">📋</span>點菜清單</h2>
-<details open>
-<summary>午餐・ㄎㄠ一杯臺灣菜專門店</summary>
-<div class="in">
-  <p style="font-size:14px;color:var(--mute)">豐原台菜，週六 11:30–20:30，有大圓桌最多 15 人。建議單點，不要點十人合菜裡的左宗棠雞（必辣）。</p>
-  <div class="dish"><div><div class="nm">自慢芋頭鴨</div><div class="nt">招牌，酥脆芋泥夾手撕鴨</div></div><div class="pr">460</div></div>
-  <div class="dish"><div><div class="nm">燉豬腳（小份）</div><div class="nt">需 20 分鐘，皮嫩入味</div></div><div class="pr">320</div></div>
-  <div class="dish"><div><div class="nm">甘樹子蒸鱸魚</div><div class="nt">清蒸，小孩好入口</div></div><div class="pr">320</div></div>
-  <div class="dish"><div><div class="nm">酒家蝦仁 或 蝦仁白菜滷</div><div class="nt">蝦仁菜，選一樣即可</div></div><div class="pr">510／320</div></div>
-  <div class="dish"><div><div class="nm">寵物的去骨雞</div><div class="nt">原味清蒸雞腿，給小孩</div></div><div class="pr">150</div></div>
-  <div class="dish"><div><div class="nm">炒高麗菜、青江菜蝦仁</div><div class="nt">青菜</div></div><div class="pr">160／280</div></div>
-  <div class="dish"><div><div class="nm">蒜頭雞湯</div><div class="nt">冬天暖胃</div></div><div class="pr">420</div></div>
-  <div class="dish"><div><div class="nm">黑糖發糕</div><div class="nt">甜點</div></div><div class="pr">200</div></div>
-  <div class="avoid"><b>別點：</b>左宗棠雞（必辣）、魚香茄子（微辣）、麻油煮蛋（含酒，只給大人）、剝皮辣椒雞湯（微嗆）</div>
-  <p class="est">預估 3,500～5,000 元（7 人單點，價取自 11/17 店家菜單）</p>
+<h2><span class="e">🍽️</span>選午餐</h2>
+<p class="combo-note">四家都可以訂 7 人。推薦在豐原端吃完再騎回后里。點選後，上方時程會一起更新。</p>
+<div class="pick-tabs" id="lunch-tabs">
+  <button class="on" data-m="l1">ㄎㄠ一杯<small>推薦・豐原台菜</small></button>
+  <button data-m="l2">梨子豐原<small>家庭餐、兒童餐</small></button>
+  <button data-m="l3">陶板屋豐原<small>套餐穩定</small></button>
+  <button data-m="l4">天奕 TY.CAFE<small>后里、近交流道</small></button>
 </div>
-</details>
-<details>
-<summary>晚餐・陶板屋 豐原向陽店</summary>
-<div class="in">
-  <p style="font-size:14px;color:var(--mute)">和風套餐店，週六 17:00–22:00，最後點餐 21:00。大人點套餐、小孩點兒童餐即可，出餐穩定，好帶小孩。套餐價格請以店內 12 月菜單為準。</p>
-  <div class="dish"><div><div class="nm">大人套餐 ×4</div><div class="nt">前菜、主餐、飯、湯、甜點</div></div><div class="pr">現場價</div></div>
-  <div class="dish"><div><div class="nm">兒童餐 ×3</div><div class="nt">點餐時確認有無兒童座椅</div></div><div class="pr">現場價</div></div>
-  <div class="avoid"><b>注意：</b>主餐若有辣醬或芥末請另盛。午市 11:00–14:30（最後點餐 14:00），若改成中午來吃也可以。</div>
-  <p class="est">近期食記常見大人套餐約 698、兒童餐約 288，另加一成服務費；實際以現場為準。7 人預估約 4,000～4,500 元。</p>
+<div id="lunch-card"></div>
+
+<h2><span class="e">🌙</span>選晚餐</h2>
+<p class="combo-note">還車後再開車去吃，比較輕鬆。優先選靠近后里交流道的，回家最順。若午餐已選同一家，晚餐請換一家。</p>
+<div class="pick-tabs" id="dinner-tabs">
+  <button class="on" data-m="d1">星月大地<small>推薦・近交流道</small></button>
+  <button data-m="d2">陶板屋豐原<small>套餐、好帶小孩</small></button>
+  <button data-m="d3">天奕 TY.CAFE<small>草地溜滑梯</small></button>
+  <button data-m="d4">享千葉豐原<small>火鍋吃到飽、有包廂</small></button>
 </div>
-</details>
+<div id="dinner-card"></div>
 
 <h2><span class="e">📞</span>訂位與留車</h2>
-<div class="callout">⏳ 狀態：尚未訂位、尚未留車、尚未訂票（11/17）。訂餐廳時備註<b>三張兒童座椅、7 人同一桌</b>。不要把訂位代碼或個人資料寫進這個公開網頁。</div>
+<div class="callout">⏳ 狀態：尚未訂位、尚未留車（11/17）。訂餐廳時備註<b>三張兒童座椅、7 人同一桌</b>。不要把訂位代碼或個人資料寫進這個公開網頁。</div>
 <div class="card">
-  <div class="rest-h"><h3>ㄎㄠ一杯（午餐）</h3><span>週六 11:30–20:30</span></div>
-  <p style="font-size:14px;color:var(--mute);margin-top:6px">豐原區豐東路 392 號</p>
-  <div class="row2"><a class="btn" href="https://tikuai.net/kaoyibei">線上訂位</a><a class="btn ghost" href="tel:0425123378">撥電話</a></div>
-</div>
-<div class="card">
-  <div class="rest-h"><h3>陶板屋 豐原向陽店（晚餐）</h3><span>週六 17:00 起</span></div>
-  <p style="font-size:14px;color:var(--mute);margin-top:6px">向陽路 130 號 B1 之 2，豐原車站步行約 300 公尺</p>
-  <div class="row2"><a class="btn" href="https://inline.app/booking/-LKtPPYDSxqo5tcDZ5uT:inline-live-2a466/-MaX_WxqfsZh8fBGlggy?utm_source=web">線上訂位</a><a class="btn ghost" href="tel:0425231600">撥電話</a></div>
-</div>
-<div class="card">
-  <div class="rest-h"><h3>鐵馬哥（留車＋接駁）</h3><span>先打電話</span></div>
-  <p style="font-size:14px;color:var(--mute);margin-top:6px">問：12/19 週六 10:00 兩家 4 大 3 小、三個兒童座、要不要電動、身高體重、接駁時間、最晚還車、假日能否騎四輪（預期不行）。</p>
+  <div class="rest-h"><h3>鐵馬哥（留車＋停車）</h3><span>先打電話</span></div>
+  <p class="meta">問：12/19 週六約 09:00 到、兩台車要免費停車、4 大 3 小、三個兒童座、要電動、身高體重、最晚還車、假日能否騎四輪（預期不行）。</p>
   <a class="btn" href="tel:0910585579">撥 0910-585-579</a>
 </div>
+<div id="book-links"></div>
 
 <h2><span class="e">🧭</span>出發前提醒</h2>
 <div class="card">
 <ul class="tips">
-  <li><b>天氣：</b>12 月台中偏涼，花樑鋼橋風大，帶防風外套、手套，小孩加一件。官網也提醒冬天要帶防風外套。</li>
-  <li><b>廁所：</b>車道起點、終點有廁所；橋上沒有，進隧道前先上。細節出發前再問租車店。</li>
-  <li><b>下雨備案：</b>出發前若預報整天大雨，改高鐵到台中逛<b>國立自然科學博物館</b>（週六 09:00–17:00，售票至 16:30；未滿 6 歲展示場免費，6～11 歲 60 元）。若已到后里才下雨，改去麗寶 OUTLET 室內；中社花市仍偏戶外，只適合小雨。</li>
+  <li><b>天氣：</b>12 月台中偏涼，花樑鋼橋風大，帶防風外套、手套，小孩加一件。</li>
+  <li><b>廁所：</b>車道起點、終點有廁所；橋上沒有，進隧道前先上。</li>
+  <li><b>下雨備案：</b>出發前若預報整天大雨，可改麗寶 OUTLET 室內，或開車到台中逛國立自然科學博物館（週六 09:00–17:00，售票至 16:30；未滿 6 歲展示場免費，6～11 歲 60 元）。中社花市偏戶外，只適合小雨。</li>
   <li><b>安全：</b>微型電動二輪車全年禁行。假日勿租三輪、四輪車上道。隧道裡不要停在路中間拍照。</li>
-  <li><b>回程彈性：</b>若晚餐吃久了，改搭豐原 19:03 或 19:45 的區間車到新烏日，再搭 20:11 或 20:31 的高鐵。</li>
+  <li><b>回程：</b>晚餐若吃久了，國 1 北上可能更塞，可查 1968 再決定要不要改國 3。泰安服務區（國 1 約 159K）可休息、上廁所，不建議當成正餐。</li>
 </ul>
 </div>
 
-<h2><span class="e">💰</span>費用粗估（7 人）</h2>
+<h2><span class="e">💰</span>費用粗估（7 人、兩台車）</h2>
 <div class="card cost">
-  <div><span>高鐵來回（4 全票＋3 兒童票，原價）</span><span>約 7,700</span></div>
-  <div><span>台鐵新烏日–后里／豐原（區間來回）</span><span>約 700</span></div>
+  <div><span>油錢（兩車來回，95 無鉛 32.7 元／公升）</span><span>約 1,200～1,800</span></div>
+  <div><span>國道通行費（兩車，eTag 9 折粗估）</span><span>約 450～560</span></div>
+  <div><span>停車（鐵馬哥免費；改停外面另計）</span><span>0 起</span></div>
   <div><span>租電動車＋兒童座 3 小時</span><span>約 1,900～2,500</span></div>
-  <div><span>午餐 ㄎㄠ一杯</span><span>約 3,500～5,000</span></div>
-  <div><span>晚餐 陶板屋（含服務費）</span><span>約 4,000～4,500</span></div>
-  <div><span>叫車、點心、雜支</span><span>約 500～1,000</span></div>
-  <div><span>合計（高鐵原價）</span><span>約 18,000～21,000</span></div>
+  <div><span>午餐（依所選餐廳）</span><span>約 2,500～5,000</span></div>
+  <div><span>晚餐（依所選餐廳）</span><span>約 3,000～6,500</span></div>
+  <div><span>點心、雜支</span><span>約 500～1,000</span></div>
+  <div><span>合計</span><span>約 10,000～17,000</span></div>
 </div>
-<p class="est">若 12/14 前買到早鳥全票，交通費還能再少一些。價格會變，以當天公告為準。</p>
+<p class="est">油錢以龜山～后里約 112 公里、台北出發較遠來估算；過路費依國 1 林口或台北交流道至后里、當日來回累計、每日 20 公里免費計算。12/19 不是連假，適用一般費率。實際以中油牌價、遠通試算和店家公告為準。</p>
 
-<footer>方案 B 資料查詢日：2026/11/17。車次取自台鐵 115/07/01 時刻表與高鐵每週固定班表（資料截至 11/16），12/19 實際班次請以訂票系統為準。<br>來源：臺中觀光旅遊網后豐鐵馬道／東豐綠廊、台鐵官方時刻表與訂票說明、台灣高鐵網路訂票與票種說明、鐵馬哥官網價目、隧道口租車官網、奇典租車（臺中觀光旅遊網，2025/07/16 更新）、ㄎㄠ一杯官網菜單、陶板屋官網分店頁、國立自然科學博物館開放時間與票價、波比看世界后豐攻略（2026/08/23）。</footer>
+<footer>方案 B 資料查詢日：2026/11/17。開車時間會受週末車潮影響，出發前請再查 1968。<br>來源：鐵馬哥交通與停車頁、臺中觀光旅遊網后豐鐵馬道／東豐綠廊／北部開車說明、台灣騎跡停車資訊、高速公路局今日通行費率與 1968、台灣中油 115/11/16 油價、ㄎㄠ一杯官網菜單、梨子咖啡館官網分店頁、陶板屋官網分店頁、天奕食記與訂位頁、星月大地公開訂位與食記、享千葉／千葉火鍋豐原店公開收費、國立自然科學博物館開放時間與票價、波比看世界后豐攻略（2026/08/23）。</footer>
 </section>
 
 </div>
@@ -381,8 +370,132 @@ function showPlan(p){
   document.getElementById('planB').classList.toggle('hidden', p!=='B');
   document.querySelectorAll('.plan-tabs button').forEach(b=>b.classList.toggle('on', b.dataset.plan===p));
   if(p==='A') show(document.querySelector('#planA .tabs button.on').dataset.c);
+  if(p==='B' && typeof initPlanBMeals==='function') initPlanBMeals();
 }
 document.querySelectorAll('.plan-tabs button').forEach(b=>b.onclick=()=>showPlan(b.dataset.plan));
+
+
+const bMeals={
+l1:{name:"午餐 ㄎㄠ一杯",where:"豐原台菜，豐東路 392 號。離鐵馬道豐原端約 5～10 分，向租車店問路或短程騎過去。",html:`
+<div class="card">
+  <div class="rest-h"><h3>ㄎㄠ一杯臺灣菜專門店<span class="tag-top">午餐首選</span></h3><span>週六 11:30–20:30</span></div>
+  <p class="meta">豐東路 392 號。有大圓桌最多 15 人，適合 7 人同桌。建議單點，不要點十人合菜裡的左宗棠雞（必辣）。預估 3,500～5,000 元。</p>
+  <div class="dish"><div><div class="nm">自慢芋頭鴨</div><div class="nt">招牌，酥脆芋泥夾手撕鴨</div></div><div class="pr">460</div></div>
+  <div class="dish"><div><div class="nm">燉豬腳（小份）</div><div class="nt">需 20 分鐘，皮嫩入味</div></div><div class="pr">320</div></div>
+  <div class="dish"><div><div class="nm">甘樹子蒸鱸魚</div><div class="nt">清蒸，小孩好入口</div></div><div class="pr">320</div></div>
+  <div class="dish"><div><div class="nm">酒家蝦仁 或 蝦仁白菜滷</div><div class="nt">選一樣即可</div></div><div class="pr">510／320</div></div>
+  <div class="dish"><div><div class="nm">寵物的去骨雞</div><div class="nt">原味清蒸雞腿，給小孩</div></div><div class="pr">150</div></div>
+  <div class="dish"><div><div class="nm">炒高麗菜、蒜頭雞湯、黑糖發糕</div><div class="nt">青菜、湯、甜點</div></div><div class="pr">160／420／200</div></div>
+  <div class="avoid"><b>別點：</b>左宗棠雞（必辣）、魚香茄子（微辣）、麻油煮蛋（含酒，只給大人）</div>
+  <p class="est">價取自 11/17 店家菜單。訂位備註兒童座椅。</p>
+  <div class="row2"><a class="btn" href="https://tikuai.net/kaoyibei">線上訂位</a><a class="btn ghost" href="tel:0425123378">撥電話</a></div>
+</div>`},
+l2:{name:"午餐 梨子豐原店",where:"陽明街 86 號，豐原市區，離鐵馬道豐原端約 10～15 分。",html:`
+<div class="card">
+  <div class="rest-h"><h3>梨子咖啡館 豐原店</h3><span>08:00–21:00</span></div>
+  <p class="meta">陽明街 86 號（陽明大樓旁）。家庭餐、有兒童座椅，兒童餐與遊戲設施請訂位時確認。7 人預估 3,000～4,500 元。電話 04-2527-6799。</p>
+  <div class="dish"><div><div class="nm">法式鄉村南瓜鍋</div><div class="nt">多人分食，口味溫和</div></div><div class="pr">現場價</div></div>
+  <div class="dish"><div><div class="nm">祖傳梅子雞鍋</div><div class="nt">常被推薦的鍋物</div></div><div class="pr">現場價</div></div>
+  <div class="dish"><div><div class="nm">玉米濃湯、主餐義大利麵或燉飯</div><div class="nt">大人可單點套餐</div></div><div class="pr">現場價</div></div>
+  <div class="dish"><div><div class="nm">兒童餐 ×3</div><div class="nt">點餐時要兒童座椅</div></div><div class="pr">現場價</div></div>
+  <div class="avoid"><b>注意：</b>假日建議先電話或 OpenTable 訂位。遊戲室最完整的是北屯崇德店，回程要繞路，午餐還是吃豐原店較近。</div>
+  <p class="est">菜名取自官網與食記，價格以 12 月店內菜單為準。</p>
+  <div class="row2"><a class="btn" href="https://www.opentable.com.tw/restaurant/profile/179630">線上訂位</a><a class="btn ghost" href="tel:0425276799">撥電話</a></div>
+</div>`},
+l3:{name:"午餐 陶板屋豐原向陽店",where:"向陽路 130 號 B1 之 2，豐原車站步行約 300 公尺；離鐵馬道豐原端約 10～15 分。週六午市 11:00–14:30，最後點餐 14:00。",html:`
+<div class="card">
+  <div class="rest-h"><h3>陶板屋 豐原向陽店</h3><span>午市至 14:30</span></div>
+  <p class="meta">向陽路 130 號 B1 之 2。和風套餐，出餐穩定、好帶小孩。週六 11:00–14:30，最後點餐 14:00。7 人預估約 4,000～4,500 元（含服務費）。</p>
+  <div class="dish"><div><div class="nm">大人套餐 ×4</div><div class="nt">前菜、主餐、飯、湯、甜點</div></div><div class="pr">現場價</div></div>
+  <div class="dish"><div><div class="nm">兒童餐 ×3</div><div class="nt">點餐時確認兒童座椅</div></div><div class="pr">現場價</div></div>
+  <div class="avoid"><b>注意：</b>主餐若有辣醬或芥末請另盛。若午餐選這家，晚餐請改星月大地、天奕或享千葉。</div>
+  <p class="est">近期食記常見大人套餐約 698、兒童餐約 288，另加一成服務費；以現場為準。</p>
+  <div class="row2"><a class="btn" href="https://inline.app/booking/-LKtPPYDSxqo5tcDZ5uT:inline-live-2a466/-MaX_WxqfsZh8fBGlggy?utm_source=web">線上訂位</a><a class="btn ghost" href="tel:0425231600">撥電話</a></div>
+</div>`},
+l4:{name:"午餐 天奕 TY.CAFE",where:"后里甲后路二段 72 號，近后里交流道，離鐵馬哥約 10～15 分開車。適合提早結束騎乘、先回停車點再吃。",html:`
+<div class="card">
+  <div class="rest-h"><h3>天奕創意料理咖啡 TY.CAFE</h3><span>週一公休</span></div>
+  <p class="meta">甲后路二段 72 號。中西式簡餐，有免費停車場、戶外草地溜滑梯，可訂包廂（食記 9 人曾入包廂）。餐點約 150–350 元，7 人預估 2,500～3,500 元。電話 04-2557-1527。</p>
+  <div class="dish"><div><div class="nm">酒蒸蛤蜊義大利麵、青醬燻雞燉飯</div><div class="nt">口味偏重，可請廚房少鹽、不辣</div></div><div class="pr">約 230</div></div>
+  <div class="dish"><div><div class="nm">溫州大餛飩、乾麵</div><div class="nt">較清淡的中式選擇，適合小孩</div></div><div class="pr">約 80／70</div></div>
+  <div class="dish"><div><div class="nm">薯條、雞塊</div><div class="nt">給小孩加點</div></div><div class="pr">約 60</div></div>
+  <div class="avoid"><b>注意：</b>有資料寫用餐限 90 分鐘；週六結束時間有 19:30 和 20:30 兩種說法，訂位時確認。若午餐選這家，晚餐請換一家。</div>
+  <p class="est">價取自食記，以店內為準。</p>
+  <div class="row2"><a class="btn" href="https://reservation.maifood.com.tw/TianYiChuangYiLiaoLiKaFei/TianYiChuangYiLiaoLiKaFei1/reserve">線上訂位</a><a class="btn ghost" href="tel:0425571527">撥電話</a></div>
+</div>`},
+d1:{name:"晚餐 星月大地",where:"月眉北路 486 號，麗寶旁，離后里交流道約 5 分、鐵馬哥約 15～20 分，吃完上國道最順。",html:`
+<div class="card">
+  <div class="rest-h"><h3>星月大地景觀餐廳<span class="tag-top">晚餐首選</span></h3><span>近后里交流道</span></div>
+  <p class="meta">月眉北路 486 號。7 人建議訂景觀宴會廳合菜，同桌比較寬敞；園區有遊戲區和餵魚，12 月晚上偏涼，戲水不適合。食記寫桌菜約 5,500 元＋10% 起，7 人實際菜色和價格一定要先打電話問。也可用咖啡廳線上訂位，但大桌請先確認。</p>
+  <div class="dish"><div><div class="nm">宴會廳 7 人合菜</div><div class="nt">請店家排不辣、好入口的菜</div></div><div class="pr">電話詢價</div></div>
+  <div class="dish"><div><div class="nm">或景觀咖啡廳主餐＋兒童餐</div><div class="nt">較輕鬆，大桌不一定有</div></div><div class="pr">現場價</div></div>
+  <div class="avoid"><b>注意：</b>宴會廳電話 04-2683-1671，咖啡廳 04-2683-3688。12 月約 17:00 天黑，去的時候風景可能已偏夜景。</div>
+  <p class="est">7 人預估約 4,500～6,500 元，以電話確認為準。</p>
+  <div class="row2"><a class="btn" href="https://inline.app/booking/-LByERBdDUJMVMdpyNBT">咖啡廳訂位</a><a class="btn ghost" href="tel:0426831671">撥宴會廳</a></div>
+</div>`},
+d2:{name:"晚餐 陶板屋豐原向陽店",where:"向陽路 130 號 B1 之 2，豐原車站步行約 300 公尺；從鐵馬哥開車約 15～20 分。週六 17:00–22:00，最後點餐 21:00。",html:`
+<div class="card">
+  <div class="rest-h"><h3>陶板屋 豐原向陽店</h3><span>週六 17:00 起</span></div>
+  <p class="meta">向陽路 130 號 B1 之 2。和風套餐，出餐穩定。週六 17:00–22:00，最後點餐 21:00。7 人預估約 4,000～4,500 元（含服務費）。吃完再開回后里交流道或國 1 豐原交流道回家。</p>
+  <div class="dish"><div><div class="nm">大人套餐 ×4</div><div class="nt">前菜、主餐、飯、湯、甜點</div></div><div class="pr">現場價</div></div>
+  <div class="dish"><div><div class="nm">兒童餐 ×3</div><div class="nt">點餐時確認兒童座椅</div></div><div class="pr">現場價</div></div>
+  <div class="avoid"><b>注意：</b>若午餐已選陶板屋，晚餐請改星月大地、天奕或享千葉。</div>
+  <p class="est">近期食記常見大人套餐約 698、兒童餐約 288，另加一成服務費；以現場為準。</p>
+  <div class="row2"><a class="btn" href="https://inline.app/booking/-LKtPPYDSxqo5tcDZ5uT:inline-live-2a466/-MaX_WxqfsZh8fBGlggy?utm_source=web">線上訂位</a><a class="btn ghost" href="tel:0425231600">撥電話</a></div>
+</div>`},
+d3:{name:"晚餐 天奕 TY.CAFE",where:"后里甲后路二段 72 號，離鐵馬哥約 10～15 分，也靠近后里交流道。",html:`
+<div class="card">
+  <div class="rest-h"><h3>天奕創意料理咖啡 TY.CAFE</h3><span>週一公休</span></div>
+  <p class="meta">甲后路二段 72 號。有免費停車場和戶外溜滑梯，適合還車後就近吃飯。7 人預估 2,500～3,500 元。有資料寫週六只開到 19:30，17:15 用餐前要先確認打烊時間。</p>
+  <div class="dish"><div><div class="nm">義大利麵或燉飯（請廚房少鹽、不辣）</div><div class="nt">大人主餐</div></div><div class="pr">約 230</div></div>
+  <div class="dish"><div><div class="nm">餛飩湯、乾麵、薯條雞塊</div><div class="nt">給小孩</div></div><div class="pr">約 60～80</div></div>
+  <div class="avoid"><b>注意：</b>可能限時 90 分鐘。若午餐已選這家，晚餐請換一家。</div>
+  <div class="row2"><a class="btn" href="https://reservation.maifood.com.tw/TianYiChuangYiLiaoLiKaFei/TianYiChuangYiLiaoLiKaFei1/reserve">線上訂位</a><a class="btn ghost" href="tel:0425571527">撥電話</a></div>
+</div>`},
+d4:{name:"晚餐 享千葉火鍋豐原",where:"自成街 66 號，豐原車站附近，從鐵馬哥開車約 15～20 分。有包廂，挑食的小孩比較好解決。",html:`
+<div class="card">
+  <div class="rest-h"><h3>享千葉火鍋 豐原尊爵館</h3><span>11:00–22:00</span></div>
+  <p class="meta">自成街 66 號。火鍋加自助吧，有包廂請先訂。假日成人 629＋10%（約 692），兒童（6–10 歲或 115–139 公分）328＋10%；2–5 歲或 65–114 公分收清潔費 100 元。三個小孩多半按身高算，訂位時先問清楚。7 人預估約 3,000～4,200 元。</p>
+  <div class="dish"><div><div class="nm">火鍋＋自助吧</div><div class="nt">菜、肉、飲料、甜點自己取，小孩好挑</div></div><div class="pr">依身高</div></div>
+  <div class="avoid"><b>注意：</b>未主動出示證件會現場量身高。這是吃到飽，節奏比桌菜快、人也較多。電話 04-2523-8630。</div>
+  <p class="est">收費取自店家公開說明與食記，請再向店家確認 12 月價格與包廂。</p>
+  <div class="row2"><a class="btn" href="https://inline.app/booking/-MPquRqKcWmiNt00V4wS:inline-live-2?language=zh-tw">線上訂位</a><a class="btn ghost" href="tel:0425238630">撥電話</a></div>
+</div>`}
+};
+let bLunch='l1', bDinner='d1';
+function paintMeal(kind,id){
+  const m=bMeals[id];
+  document.getElementById(kind+'-card').innerHTML=m.html;
+  document.querySelectorAll('#'+kind+'-tabs button').forEach(b=>b.classList.toggle('on',b.dataset.m===id));
+  if(kind==='lunch'){
+    bLunch=id;
+    const n=document.querySelector('#b-lunch-ev .n');
+    if(n) n.innerHTML=m.name+'<span class="badge b-meal">要訂位</span>';
+    const d=document.getElementById('b-lunch-d');
+    if(d) d.textContent=m.where;
+  }else{
+    bDinner=id;
+    const n=document.querySelector('#b-dinner-ev .n');
+    if(n) n.innerHTML=m.name+'<span class="badge b-meal">要訂位</span>';
+    const d=document.getElementById('b-dinner-d');
+    if(d) d.textContent=m.where;
+  }
+  const same=(bLunch==='l3'&&bDinner==='d2')||(bLunch==='l4'&&bDinner==='d3');
+  const box=document.getElementById('book-links');
+  if(box){
+    const grab=(html,label)=>{
+      const t=(html.match(/<h3>([\s\S]*?)<\/h3>/)||[])[1]||'';
+      const name=t.replace(/<[^>]+>/g,' ').replace(/\s+/g,' ').trim();
+      const btns=(html.match(/<div class="row2">[\s\S]*?<\/div>/)||[])[0]||'';
+      return '<div class="card"><div class="rest-h"><h3>'+label+' · '+name+'</h3></div>'+btns+'</div>';
+    };
+    box.innerHTML=(same?'<div class="callout">午晚目前選了同一家，建議晚餐換一家，比較不會吃重複。</div>':'')+grab(bMeals[bLunch].html,'午餐')+grab(bMeals[bDinner].html,'晚餐');
+  }
+}
+document.querySelectorAll('#lunch-tabs button').forEach(b=>b.onclick=()=>paintMeal('lunch',b.dataset.m));
+document.querySelectorAll('#dinner-tabs button').forEach(b=>b.onclick=()=>paintMeal('dinner',b.dataset.m));
+function initPlanBMeals(){ if(document.getElementById('lunch-card')){ paintMeal('lunch',bLunch); paintMeal('dinner',bDinner);} }
+initPlanBMeals();
 
 </script>
 </body>
