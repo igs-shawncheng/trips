@@ -17,20 +17,16 @@ header .tag{display:inline-block;background:rgba(255,255,255,.18);border-radius:
 header h1{font-size:24px;line-height:1.35;margin-bottom:8px}
 header p{font-size:15px;opacity:.92}
 .caption{font-size:12px;opacity:.8;margin-top:8px}
-h2{font-size:20px;margin:28px 0 12px;display:flex;align-items:center;gap:8px}
+h2{font-size:20px;margin:28px 0 12px}
 .card{background:var(--card);border-radius:16px;padding:16px;margin-bottom:12px;box-shadow:0 1px 3px rgba(0,0,0,.06);border:1px solid var(--line)}
 .tl{position:relative;padding-left:22px}
 .tl:before{content:"";position:absolute;left:7px;top:6px;bottom:6px;width:2px;background:var(--line)}
 .ev{position:relative;margin-bottom:14px}
 .ev:before{content:"";position:absolute;left:-20px;top:20px;width:12px;height:12px;border-radius:50%;background:var(--gold);border:2px solid #fff;box-shadow:0 0 0 2px var(--gold)}
-.ev.risk:before{background:var(--red);box-shadow:0 0 0 2px var(--red)}
 .ev.rest:before{background:var(--green);box-shadow:0 0 0 2px var(--green)}
 .ev .t{font-size:14px;font-weight:700;color:var(--water)}
 .ev .n{font-size:17px;font-weight:600}
 .ev .d{font-size:14px;color:var(--mute);margin-top:2px}
-.badge{display:inline-block;font-size:12px;border-radius:6px;padding:1px 7px;margin-left:4px;vertical-align:2px}
-.b-warn{background:#fff3d6;color:#8a6410}
-.b-danger{background:#f6e3e6;color:var(--red)}
 .callout{background:#fff8e6;border-left:4px solid var(--gold);border-radius:10px;padding:12px 14px;font-size:14px;margin:10px 0}
 .callout.danger{background:#fdf1f1;border-left-color:var(--red)}
 .callout.info{background:#eef6f3;border-left-color:var(--green)}
@@ -39,13 +35,7 @@ th,td{text-align:left;padding:8px 6px;border-bottom:1px solid var(--line);vertic
 th{color:var(--mute);font-weight:600;font-size:13px}
 a{color:#155e5e}
 .btn{display:block;text-align:center;background:var(--teal);color:#fff;text-decoration:none;border-radius:12px;padding:12px;font-weight:600;margin-top:10px}
-details{background:var(--card);border-radius:16px;margin-bottom:12px;border:1px solid var(--line);box-shadow:0 1px 3px rgba(0,0,0,.06)}
-details summary{padding:16px;font-size:17px;font-weight:700;list-style:none;cursor:pointer;display:flex;justify-content:space-between}
-details summary::-webkit-details-marker{display:none}
-details summary:after{content:"＋";color:var(--water)}
-details[open] summary:after{content:"－"}
-details .in{padding:0 16px 16px}
-ul,ol{margin:6px 0 6px 1.2em}
+ul{margin:6px 0 6px 1.2em}
 li{margin:4px 0}
 .mute{color:var(--mute);font-size:13px}
 footer{font-size:13px;color:var(--mute);margin-top:32px}
@@ -60,151 +50,99 @@ footer{font-size:13px;color:var(--mute);margin-top:32px}
 <span class="tag">12 月枯水期</span>
 <span class="tag">要入山證</span>
 <h1>達力尼嘎（Daljiniga）射鹿溪峽谷</h1>
-<p>排灣族語名稱是達力尼嘎，意思接近「像蜈蚣的峽谷」。外界常叫「草泥馬峽谷」，部落傳統領袖認為這個叫法不尊重，本頁以達力尼嘎為主。</p>
-<p class="caption">封面為 2026-11-17 製作的示意插畫，不是現場照片，也不是其他景點的照片。景色文字依公開遊記整理，並附出處。</p>
+<p>排灣族語名稱是達力尼嘎，亦作 Tjaniliga，意思接近「像蜈蚣的峽谷」。部落傳統領袖蕭惠美指出，外界俗稱「草泥馬峽谷」並不尊重，本頁以達力尼嘎為正名；獅王瀑布應稱達拉邦（Talaban），沙拉灣／太古拉筏斯應稱 Taikulavas。</p>
+<p class="caption">封面為 2026-11-17 製作的示意插畫，不是現場照片，也不是其他景點的照片，不可當作實際地形依據。</p>
 </div>
 </header>
 
-<div class="callout danger"><b>先讀這段：</b>這裡是部落聖地，不是開放戲水區。2026 年 5 月 1 日達拉邦（外界稱獅王瀑布）、5 月 6 日達力尼嘎附近水域，六天內兩件遊客溺斃。潭水看起來平靜，底下可能有暗流。請備齊技術與裝備，建議找熟悉當地的嚮導或商業團，不要單獨入溪。</div>
+<div class="callout danger">2026 年 5 月 1 日達拉邦、5 月 6 日達力尼嘎附近水域，六天兩件溺斃；潭面看似平靜，底下有暗流。</div>
 
 <div class="card">
-<h3>這是哪裡</h3>
-<p>位於屏東縣瑪家鄉射鹿溪，在太古拉筏斯瀑布（Taikulavas，外界也稱沙拉灣瀑布）與達拉邦瀑布（Talaban，外界稱獅王瀑布）之間。同地也有人寫 Tjaniliga。查詢日未發現其他同名的主要溪降路線。</p>
+位於屏東縣瑪家鄉射鹿溪，太古拉筏斯瀑布與達拉邦瀑布之間。查詢日未發現台灣另有一條同名的主要溪降路線。
 </div>
 
-<h2>路線怎麼走</h2>
+<h2>路線</h2>
 <div class="card">
 <table>
-<tr><th>走法</th><th>進出方式</th><th>垂降</th><th>時間</th></tr>
-<tr><td>陸路下切（北端）</td><td>朝聖橋前空地旁小徑下切，再上溯進入峽谷北端</td><td>進入峽谷本身通常不必垂降；末段約 30 公尺臨崖邊坡需拉繩下攀（遊記，非官方）</td><td>健行筆記單程 0.86 公里、下降約 232 公尺、約 31 分（只記去程）。商業團全日約 08:30–15:00</td></tr>
-<tr><td>太古拉筏斯下溯（南端）</td><td>先到太古拉筏斯，再下溯約 500 公尺到峽谷南端</td><td>南端因巨石堵塞形成瀑布，遊記寫落差可達 10 公尺以上，沒有溪降裝備只能在入口折返</td><td>朝聖橋走到太古拉筏斯，遊記約 30 分；再加上溯段。全程官方時數未見</td></tr>
+<tr><th>走法</th><th>進出</th><th>垂降</th><th>距離／時數</th></tr>
+<tr><td>陸路下切（北端）</td><td>朝聖橋前空地旁小徑下切，再上溯入峽谷北端</td><td>進峽谷通常不必垂降；末段約 30 公尺臨崖邊坡需拉繩（遊記）</td><td>健行筆記去程 0.86 公里、下降約 232 公尺、約 31 分。遊記下切約 600 公尺、落差約 230 公尺</td></tr>
+<tr><td>太古拉筏斯下溯（南端）</td><td>先到太古拉筏斯，再下溯約 500 公尺到南端入口</td><td>南端瀑遊記寫落差可達 10 公尺以上</td><td>朝聖橋至太古拉筏斯遊記約 30 分；下溯段官方時數未見</td></tr>
 </table>
-<p class="mute">峽谷本身：遊記與維基百科寫水道長約 50 公尺、寬約 3–4 公尺或不到 10 公尺、最深約 7–8 公尺（新聞寫救援時潭深約 5 公尺），兩岸夾壁可達數十公尺，上方有巨石卡在一線天。完整「射鹿溪瀑布群」溪降（ZA 資料庫曾列 v4a4III、最大瀑高 60 公尺）是更長的路線，不要和只走這段峽谷混為同一條。垂降段數沒有官方清單，標未確認。</p>
+<p class="mute">峽谷本身：遊記與維基百科寫水道長約 50 公尺、寬約 3–4 公尺或不到 10 公尺、最深約 7–8 公尺（新聞寫救援時潭深約 5 公尺），夾壁可達數十公尺，上方有卡石。完整「射鹿溪瀑布群」溪降（ZA 曾列 v4a4III、最大瀑高 60 公尺）是另一條更長的路線。垂降段數沒有官方清單，標未確認。</p>
 </div>
 
-<h2>要不要申請</h2>
+<h2>入山證</h2>
 <div class="card">
 <table>
-<tr><th>項目</th><th>結論（查詢日 2026-11-17）</th></tr>
-<tr><td>入山證</td><td><b>要。</b>屏專五道路與瑪家鄉舊部落山區屬山地管制區。可上網申請（入山日前 3 日至 124 日），或向瑪家分駐所臨櫃。中央社 2021 年報導入口會引導未辦證者去派出所；仍建議先上網辦並列印。未申請可罰，遊記引述最高 6,000 元。</td></tr>
-<tr><td>入園證</td><td>未查到此路線位於國家公園生態保護區，故不以國家公園入園證為前置。出發前仍請再確認。</td></tr>
-<tr><td>自然保留區／保護區</td><td>未查到此峽谷被列為須向林業署申請的自然保留區或野生動物保護區。</td></tr>
-<tr><td>自然人文生態景觀區</td><td>觀光署公告名單目前只有琉球鄉、霧台鄉，<b>沒有瑪家鄉</b>。2026 年 5 月新聞：劃設與「申請導覽制」仍在規劃或申請中。查詢日未看到已實施的強制導覽。</td></tr>
-<tr><td>林道／部落</td><td>屏專五為主要進山道路；警政署 2024-01-01 起已解除該路施工封路（以入山系統公告為準）。部落視此地為聖地，請尊重石板屋遺址與私人土地，勿擋路、勿亂停。</td></tr>
-<tr><td>屏東縣登山自治條例</td><td>縣府有《登山活動管理自治條例》。是否另需向縣府報備，本次未完整確認，出發前請向屏東縣警察局或消防局確認。</td></tr>
+<tr><th>項目</th><th>結論（2026-11-17）</th></tr>
+<tr><td>入山證</td><td><b>要。</b>屏專五與瑪家鄉山地管制區。上網申請為入山日前 3 日至 124 日；也可臨櫃瑪家分駐所（鄉公所頁常見寫法：北葉村風景 1 號，電話常見寫法 08-799-1749）。未申請可罰，遊記引述最高 6,000 元。</td></tr>
+<tr><td>入園證、保護區</td><td>未查到國家公園生態保護區或須向林業署申請的保留區／保護區。</td></tr>
+<tr><td>自然人文生態景觀區</td><td>觀光署公告名單目前只有琉球鄉、霧台鄉，沒有瑪家鄉。2026 年 5 月新聞：劃設與申請導覽制仍在規劃中。</td></tr>
+<tr><td>屏專五</td><td>進山道路。入山系統公告 113/1/1 起解除施工封路（以當日公告為準）。</td></tr>
+<tr><td>縣府登山自治條例</td><td>有條例。是否另需向縣府報備，未完整確認。</td></tr>
 </table>
 <p><a class="btn" href="https://nv2.npa.gov.tw/NM107-604Client/nV01A01Q_01_Action.do?method=doList&amp;mode=query">入山案件申辦系統</a></p>
 </div>
 
-<h2>12 月適不適合</h2>
+<h2>12 月水況</h2>
 <div class="card">
-<p>南台灣乾、雨季分明，枯水期較適合走這段。商業團頁寫每年 11 月至隔年梅雨季前、水量較小時才出發；影片創作者也曾提醒較適 11–4 月，下雨或地震後不適合。12 月就季節來說是適合的窗口，但水仍會冷。</p>
-<p><b>水溫：</b>未查到射鹿溪 12 月的實測水溫，標未確認。2015 年 12 月有隊伍在射鹿溪做溪降，當時屏東氣溫約 17–24°C，作者因怕冷租了防寒衣。請以當日體感與防寒衣為準，不要只看氣溫。</p>
-<p><b>水量：</b>枯水期較好走，但仍可能有深潭要泳渡。逢雨、上游降雨或地震後不要硬闖。查詢日無法提供即時水位。</p>
+<p>枯水期窗口。商業團寫每年 11 月至隔年梅雨季前出發；亦有紀錄寫 11–4 月。射鹿溪 12 月實測水溫未查到，標未確認。2015 年 12 月溪降遊記，當時屏東氣溫約 17–24°C，作者租了防寒衣。枯水期仍可能有深潭要泳渡。</p>
 </div>
 
-<h2>風險</h2>
+<h2>住宿、日期與時間軸</h2>
 <div class="card">
-<ul>
-<li><b>暗流與溺水：</b>2026 年 5 月六天兩死。公所與部落都提醒不是開放水域，有告示仍常被忽略。</li>
-<li><b>暴漲：</b>峽谷地形逃生空間小，午後雷雨或上游降雨都危險。</li>
-<li><b>落石與崩壁：</b>陸路末段是碎石岩壁；溪降遊記也提過夜裡擔心落石。</li>
-<li><b>低溫：</b>12 月泡水後失溫風險上升，要穿防寒衣，並在車上留乾衣。</li>
-<li><b>救援困難：</b>深山，消防搬運耗時。警政署建議攜帶定位與衛星通信，避免單獨入山。</li>
-</ul>
+<p>前一晚住水門或三地門。平日首選 12/15–17、12/22–24；備案 12/8–10、12/29–30。假日朝聖橋停車易滿。線上入山證如 12/15 出發，須在 12/12 前提出。</p>
 </div>
-
-<h2>景色（依遊記文字，不是實拍）</h2>
-<div class="card">
-<p>目前在 Wikimedia Commons、Openverse 沒有找到可合法轉載的達力尼嘎現場照片，因此不用別人部落格的照片，也不拿附近其他瀑布的照片來充當這裡。以下依公開遊記整理，並附連結。</p>
-<ul>
-<li><b>一線天夾壁：</b>兩岸高聳，水道狹長如殿堂走廊，抬頭是一條天空。見 2025 年 10 月陸路下切遊記。</li>
-<li><b>卡石：</b>有一塊巨岩橫卡在峽谷上方。南端入口的卡石輪廓，有人覺得像某種動物的頭。見 2023 年 4 月初探遊記。</li>
-<li><b>水色：</b>陽光從岩縫進來時，水面會呈 Tiffany 藍或碧玉色。民視新聞曾轉述探險影片的觀感。</li>
-<li><b>南端瀑布：</b>巨石堵塞後堆高，形成遊記所稱的峽谷瀑布，高度可達 10 公尺以上。</li>
-<li><b>北端深潭：</b>由陸路下切抵河床後，經深潭即可進入峽谷北端。</li>
-</ul>
-<p class="mute">更多照片與影片請看下面「更多美景」，那些是外部連結，不是本頁收錄的授權圖。</p>
-</div>
-
-<h2>建議日期與前一晚</h2>
-<div class="card">
-<p>查詢日是 2026-11-17（週二，Asia/Taipei）。12 月建議先看平日，例如 <b>12/15–17、12/22–24</b>；備案 12/8–10、12/29–30。避開剛下過大雨之後，出發前看中央氣象署預報與山區降雨。假日朝聖橋停車很容易滿。</p>
-<p>車程長，建議前一晚住<b>水門或三地門</b>一帶（商業團集合點是 7-11 水門門市），不必進管制區過夜。次日再辦證或入山。</p>
-</div>
-
-<h2>建議時間表（自組、陸路下切）</h2>
 <div class="card tl">
-<div class="ev rest"><div class="t">前一天下午</div><div class="n">自桃園龜山出發</div><div class="d">OSM 到水門一帶約 354 公里、系統約 4 小時 22 分（自由流，實際山路與停車會更久）。在高雄鳳山保南全聯超充充到 90% 以上。</div></div>
-<div class="ev"><div class="t">前一晚</div><div class="n">住水門或三地門</div><div class="d">列印入山證與名冊，或確認次日能否臨櫃。</div></div>
-<div class="ev"><div class="t">07:00</div><div class="n">瑪家分駐所</div><div class="d">若還要臨櫃辦證。地址見鄉公所頁：北葉村風景 1 號。OSM 以瑪家鄉公所為近似點。</div></div>
-<div class="ev"><div class="t">07:30–08:30</div><div class="n">開屏專五到朝聖橋</div><div class="d">遊記：派出所出發約 50 分，路窄、只容一車，勿開過朝聖橋後路況更差的路段。OSM 鄉公所附近到朝聖橋約 17 公里、約 39 分，偏樂觀。</div></div>
-<div class="ev"><div class="t">08:30–09:30</div><div class="n">陸路下切</div><div class="d">約 600 公尺、落差約 230 公尺；後半陡，最後拉繩下碎石邊坡。</div></div>
-<div class="ev risk"><div class="t">09:30–12:30</div><div class="n">峽谷活動</div><div class="d">依計畫泳渡、packraft 或決定是否從南端垂降。不熟地形就不要往下游硬走到達拉邦。設定撤收時間。</div></div>
-<div class="ev rest"><div class="t">12:30–14:30</div><div class="n">上切回車，離開山區</div><div class="d">上切比下切更耗力。不要拖到午後雷雨。</div></div>
+<div class="ev rest"><div class="t">前一天下午</div><div class="n">自桃園龜山出發</div><div class="d">OSM 到水門一帶約 354 公里、系統約 4 小時 22 分（自由流）。在高雄鳳山保南全聯超充。</div></div>
+<div class="ev"><div class="t">前一晚</div><div class="n">住水門或三地門</div><div class="d">列印入山證，或確認次日臨櫃。</div></div>
+<div class="ev"><div class="t">07:00</div><div class="n">瑪家分駐所</div><div class="d">若需臨櫃。</div></div>
+<div class="ev"><div class="t">07:30–08:30</div><div class="n">屏專五到朝聖橋</div><div class="d">遊記：派出所出發約 50 分，停橋前空地。OSM 鄉公所附近到朝聖橋約 17 公里、約 39 分。遊記座標 22.664833, 120.715000（非官方）。</div></div>
+<div class="ev"><div class="t">08:30–09:30</div><div class="n">陸路下切</div><div class="d">約 600 公尺、落差約 230 公尺；末段約 30 公尺拉繩。</div></div>
+<div class="ev"><div class="t">09:30–12:30</div><div class="n">峽谷</div></div>
+<div class="ev rest"><div class="t">12:30–14:30</div><div class="n">上切回車</div></div>
 </div>
+<p class="mute" style="margin:0 0 16px">查詢日可見 packraft 行程：7-11 水門門市集合、一人一艇約 2,500 元起、6 艇成行、約 08:30–15:00，非全程溪降團。</p>
 
-<h2>開車與補電（Tesla 超充）</h2>
+<h2>開車與補電</h2>
 <div class="card">
-<p>起點以桃園龜山估算（OSRM，2026-11-17）。數字是自由流，不含山路實速、會車與停車。</p>
+<p>起點以桃園龜山估算（OSRM，2026-11-17），數字是自由流。</p>
 <table>
 <tr><th>路段</th><th>約略里程／時間</th></tr>
-<tr><td>龜山 → 朝聖橋（遊記座標 22.664833, 120.715000）</td><td>約 372 公里，約 5 小時 02 分</td></tr>
+<tr><td>龜山 → 朝聖橋</td><td>約 372 公里，約 5 小時 02 分</td></tr>
 <tr><td>龜山 → 水門忠孝路一帶</td><td>約 354 公里，約 4 小時 22 分</td></tr>
 <tr><td>龜山 → 鳳山保南二路一帶（最後超充近似點）</td><td>約 338 公里，約 4 小時 04 分</td></tr>
 <tr><td>鳳山保南一帶 → 瑪家鄉公所</td><td>約 45 公里，約 45 分</td></tr>
 <tr><td>鳳山保南一帶 → 朝聖橋</td><td>約 63 公里，約 1 小時 24 分</td></tr>
 </table>
-<p><b>建議最後補電：</b>高雄「全聯鳳山保南店」超充（electrify.tw：V3、全天、停車 $40；地址常見寫法為保南二路 207 號）。屏東市和生路三段超充查詢時標施工中，不要當作可用。南州、枋山、恆春方向不順路。路上也可先在路竹一帶（黑松露／科學園區附近）補一次；路竹站精確座標本次未編碼成功，出發前用 Tesla App 確認。</p>
-<p>最後超充後還有一段山路，請充到 90% 以上，抵達登山口仍留足夠電量。山上低溫停車會掉電。</p>
-</div>
-
-<h2>裝備</h2>
-<div class="card">
-<ul>
-<li>防寒衣（12 月建議穿，水溫未實測）</li>
-<li>頭盔、救生衣、溯溪鞋</li>
-<li>若走南端或要垂降：吊帶、確保器、牛尾繩、足夠長的繩（南端瀑遊記寫 10 公尺以上，陸路末段邊坡約 30 公尺，所需繩長請自行勘驗，未確認）</li>
-<li>防水袋、笛、急救、頭燈、定位與通信（建議有衛星通信）</li>
-<li>車上留一套乾衣與保暖層</li>
-</ul>
-<p>商業團（若報名）通常含背包艇、頭盔、溯溪鞋、救生衣，防寒衣可另租。以業者當日說明為準。</p>
-</div>
-
-<h2>要不要找嚮導</h2>
-<div class="card">
-<p><b>建議找。</b>理由：水域有暗流與溺水紀錄、救援不易、12 月仍會冷、這裡是部落聖地，導覽制未來可能實施。</p>
-<p>查詢日看得到商業 <b>packraft（背包艇）</b> 行程，例如在 7-11 水門門市集合、走下切點進峽谷，標價一人一艇 2,500 元起，6 艇成行，活動約 3 小時、全日約 08:30–15:00，需滿 18 歲，建議一週前報名。這是業者頁面，不是全程技術溪降團。專門的多段垂降商業團，本次沒有明確找到，標未確認。</p>
-<p>有清昌溪、水晶谷、壽豐溪經驗的隊伍，仍建議至少有人熟悉這條溪的水文與下切繩段，或跟當地合格教練。</p>
+<p>最後超充：高雄「全聯鳳山保南店」（electrify.tw：V3、全天、停車 $40）。屏東市和生路三段超充查詢時施工中。南州、枋山、恆春不順路。路上可先在路竹一帶（黑松露／科學園區附近）補一次；該站精確座標本次未編碼成功。出發前以 Tesla App 為準。</p>
+<p class="mute">南端或垂降：吊帶、確保器、繩。南端瀑遊記寫 10 公尺以上，陸路末段約 30 公尺，官方繩長未列。12 月防寒衣（水溫未實測）。</p>
 </div>
 
 <h2>更多美景</h2>
 <div class="card">
-<p>以下是外部遊記、新聞與影片，照片版權屬於原作者，本頁只放連結、不轉載圖片。</p>
 <ul>
 <li><a href="https://bimeci11.blogspot.com/2025/10/blog-post.html">2025-10 陸路下切遊記（一線天、卡石、瀑布）</a></li>
 <li><a href="https://bimeci11.blogspot.com/2023/04/blog-post_1.html">2023-04 太古拉筏斯下溯初探（南端入口）</a></li>
 <li><a href="https://www.ptt.cc/bbs/Tai-travel/M.1761708098.A.B66.html">PTT 陸路下切文</a></li>
 <li><a href="https://www.ftvnews.com.tw/news/detail/2024429W0163">民視：探險影片與水色描述</a></li>
 <li><a href="https://hiking.biji.co/index.php?act=gpx_detail&amp;id=5443370">健行筆記：陸路下切 GPX</a></li>
-<li><a href="https://zh.wikipedia.org/wiki/%E5%B0%84%E9%B9%BF%E6%BA%AA%E7%80%91%E5%B8%83%E7%BE%A4">維基百科：射鹿溪瀑布群（含附近瀑布，不是本峽谷實拍專頁）</a></li>
+<li><a href="https://zh.wikipedia.org/wiki/%E5%B0%84%E9%B9%BF%E6%BA%AA%E7%80%91%E5%B8%83%E7%BE%A4">維基百科：射鹿溪瀑布群</a></li>
 </ul>
 </div>
 
-<h2>主要來源</h2>
+<h2>來源</h2>
 <div class="card mute">
 <ul>
-<li>入山系統：<a href="https://nv2.npa.gov.tw/NM107-604Client/nV01A01Q_01_Action.do?method=doList&amp;mode=query">警政署</a></li>
-<li>入山證說明：<a href="https://www.npa.gov.tw/ch/app/faq/view?id=2144&amp;module=faq&amp;serno=A1078887">警政署 FAQ</a></li>
-<li>屏專五入山：<a href="https://www.cna.com.tw/news/aloc/202102080195.aspx">中央社 2021</a></li>
-<li>2026 年 5 月事故與導覽規劃：<a href="https://news.pts.org.tw/article/807172">公視</a>、<a href="https://udn.com/news/story/7320/9492745">聯合報</a>、<a href="https://udn.com/news/story/7327/9491991">聯合報正名報導</a></li>
-<li>觀光署景觀區名單：<a href="https://admin.taiwan.net.tw/BusinessInfo/Articles?a=116">公告列表</a></li>
-<li>超充：<a href="https://electrify.tw/supercharger/">electrify.tw</a>（出發前以 Tesla App 為準）</li>
-<li>商業團頁面（查詢日所見）：<a href="https://samrainwild.rezio.shop/zh-TW/product/LVEIPI">射鹿溪背包艇</a></li>
+<li>入山系統：<a href="https://nv2.npa.gov.tw/NM107-604Client/nV01A01Q_01_Action.do?method=doList&amp;mode=query">警政署</a>、<a href="https://www.npa.gov.tw/ch/app/faq/view?id=2144&amp;module=faq&amp;serno=A1078887">FAQ</a>、<a href="https://www.cna.com.tw/news/aloc/202102080195.aspx">中央社 2021</a></li>
+<li>2026 年 5 月事故與正名：<a href="https://news.pts.org.tw/article/807172">公視</a>、<a href="https://udn.com/news/story/7320/9492745">聯合報</a>、<a href="https://udn.com/news/story/7327/9491991">聯合報正名</a></li>
+<li>觀光署名單：<a href="https://admin.taiwan.net.tw/BusinessInfo/Articles?a=116">自然人文生態景觀區</a></li>
+<li>超充：<a href="https://electrify.tw/supercharger/">electrify.tw</a></li>
+<li>packraft 行程（查詢日所見）：<a href="https://samrainwild.rezio.shop/zh-TW/product/LVEIPI">射鹿溪背包艇</a></li>
 </ul>
-<p>車程以 OpenStreetMap / OSRM 於 2026-11-17 估算。本頁不含個人資料或訂位代號。查不到的已標未確認，請以出發當日官方公告為準。</p>
+<p>車程以 OpenStreetMap / OSRM 於 2026-11-17 估算。查不到的已標未確認。</p>
 </div>
-<footer>本頁供同行與友人閱覽。私人知識庫另有備份。請尊重達力尼嘎這個名字，以及這條溪對排灣族的意義。</footer>
+<footer>請尊重達力尼嘎這個名字，以及這條溪對排灣族的意義。</footer>
 </div>
 </body>
 </html>
