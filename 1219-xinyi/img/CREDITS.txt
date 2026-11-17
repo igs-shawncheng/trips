@@ -112,3 +112,10 @@ b-fishway.webp
   License: CC BY-SA 4.0
   https://commons.wikimedia.org/wiki/File:Shihgang_Dam_fishway,_as_taken_on_7th_October_2020.jpg
 
+b-zero-egg.webp
+  Source: Zero-mark Platform, TRA Shihkang Station 20200122.jpg
+  Author: 大頭家族
+  License: CC BY-SA 2.0
+  https://commons.wikimedia.org/wiki/File:Zero-mark_Platform,_TRA_Shihkang_Station_20200122.jpg
+  Date: 2020-01-22
+
