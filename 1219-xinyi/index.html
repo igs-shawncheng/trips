@@ -83,6 +83,35 @@ footer{font-size:12px;color:var(--mute);margin-top:28px;line-height:1.7}
 .pick-tabs button small{display:block;font-size:11px;font-weight:600;opacity:.88;margin-top:2px}
 .tag-top{display:inline-block;background:#fff3d6;color:#8a6410;font-size:11px;border-radius:6px;padding:1px 6px;margin-left:4px;vertical-align:2px}
 .meta{font-size:14px;color:var(--mute);margin-top:6px}
+
+.hero{margin:4px 0 18px}
+.hero figure{margin:0}
+.hero img{width:100%;display:block;border-radius:18px;object-fit:cover;background:#ece4d9}
+.hero.tall img{aspect-ratio:4/5;max-height:min(420px,78vw);object-position:center 38%}
+.hero.wide img{aspect-ratio:16/9;max-height:230px;object-position:center}
+.credit{font-size:11px;color:var(--mute);line-height:1.55;margin:6px 2px 0}
+.card.with-pic{padding:0;overflow:hidden}
+.card.with-pic .card-body{padding:14px 16px 16px}
+.card-photo{margin:0}
+.card-photo img{width:100%;height:168px;object-fit:cover;display:block;background:#ece4d9}
+.card-photo.portrait img{height:230px;object-position:center 40%}
+.card-photo .credit{margin:8px 16px 0}
+.gallery{display:grid;grid-template-columns:1fr 1fr;gap:8px;padding:12px 12px 0}
+.gallery img{width:100%;height:118px;object-fit:cover;border-radius:12px;display:block;background:#ece4d9}
+.gallery .credit{margin-top:4px}
+.illus{background:linear-gradient(165deg,#f7f1e8 0%,#fff8e6 100%);border-radius:14px;min-height:120px;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:16px 14px;margin:0 0 10px}
+.illus .emo{font-size:40px;line-height:1.15;margin-bottom:6px}
+.illus p{margin:0;font-size:13px;color:var(--mute)}
+.pic-ev{margin:0 0 8px}
+.pic-ev img{width:100%;height:148px;object-fit:cover;display:block;border-radius:12px;background:#ece4d9}
+.dish{align-items:center}
+.dish .ph{flex:0 0 64px;width:64px;height:64px;border-radius:10px;object-fit:cover;background:#f7f1e8}
+.dish .ph-emo{flex:0 0 64px;width:64px;height:64px;border-radius:10px;background:#f7f1e8;display:flex;align-items:center;justify-content:center;font-size:28px}
+.dish .grow{flex:1;min-width:0}
+.meal-pic{margin:0 0 10px}
+.meal-pic img{width:100%;height:140px;object-fit:cover;border-radius:12px;display:block;background:#ece4d9}
+.hl .hl-pic{margin:0 0 8px}
+.hl .hl-pic img{width:100%;height:140px;object-fit:cover;border-radius:12px;display:block;background:#ece4d9}
 </style>
 </head>
 <body>
@@ -99,6 +128,12 @@ footer{font-size:12px;color:var(--mute);margin-top:28px;line-height:1.7}
 </div>
 
 <section id="planA">
+<div class="hero tall">
+  <figure>
+    <img src="img/a-a11-tree.webp" alt="2025 年新光三越 A11 聖誕樹，背景是台北 101 夜景" width="800" height="1000" fetchpriority="high">
+    <figcaption class="credit">2025 年 A11 聖誕樹，遠景可見台北 101（不是 101 外牆聖誕點燈）。照片：阿道／Wikimedia Commons，<a href="https://commons.wikimedia.org/wiki/File:SKM_Christmas_tree_at_SKM_Taipei_Xinyi_Place_A11_03_20251215.jpg">CC BY-SA 4.0</a>。</figcaption>
+  </figure>
+</div>
 <h2><span class="e">🍽️</span>選一個午晚餐組合</h2>
 <div class="tabs">
   <button class="on" data-c="A">A 推薦</button>
@@ -109,11 +144,38 @@ footer{font-size:12px;color:var(--mute);margin-top:28px;line-height:1.7}
 <div class="card"><div class="tl" id="tl"></div></div>
 <div class="callout">新光三越 A11 聖誕樹 16:30 起每 15 分鐘一場聲光秀，整點與半點會飄雪。統一時代 Purple Wish 燈光秀 18:00～21:00，每整點、半點一場。</div>
 
+<div class="card with-pic">
+  <figure class="card-photo portrait">
+    <img src="img/a-xiangti.webp" alt="2025 年信義區香堤大道聖誕樹與耶誕列車造景" width="800" height="1000" loading="lazy">
+    <figcaption class="credit">信義香堤大道聖誕樹（2025/11）。照片：Heeheemalu／Wikimedia Commons，<a href="https://commons.wikimedia.org/wiki/File:Christmas_Tree_at_Xinyi_Xiangti_Avenue_20251123.jpg">CC BY-SA 4.0</a>。</figcaption>
+  </figure>
+  <div class="card-body">
+    <div class="rest-h"><h3>信義商圈聖誕燈</h3><span>香堤大道／A11</span></div>
+    <p style="margin-top:8px">白天可在香堤大道看聖誕樹，傍晚再到 A11 看飄雪秀。101 外牆聖誕點燈只在 12/24～25，12/19 看不到那一項。</p>
+  </div>
+</div>
+
 <h2><span class="e">🧸</span>貴婦百貨中庭</h2>
-<div class="card">
+<div class="card with-pic">
+  <div class="gallery">
+    <figure class="pic">
+      <img src="img/a-bellavita.webp" alt="BELLAVITA 寶麗廣塲 1F 中庭的室內花園，一般樣貌" width="800" height="450" loading="lazy">
+      <figcaption class="credit">1F 中庭一般樣貌。照片：玄史生／Wikimedia Commons，<a href="https://commons.wikimedia.org/wiki/File:Central_Court_of_Bellavita_1F_20160327a.JPG">CC0</a>。</figcaption>
+    </figure>
+    <figure class="pic">
+      <img src="img/a-bellavita-night.webp" alt="夜間燈光下的 BELLAVITA 寶麗廣塲外觀" width="800" height="450" loading="lazy">
+      <figcaption class="credit">夜間外觀（2011）。照片：Wei-Te Wong／Wikimedia Commons，<a href="https://commons.wikimedia.org/wiki/File:Bellavita_20111224_night.jpg">CC BY-SA 2.0</a>。</figcaption>
+    </figure>
+  </div>
+  <div class="card-body">
   <div class="rest-h"><h3>BELLAVITA 寶麗廣塲 1F 中庭</h3><span>松仁路 28 號</span></div>
   <p style="margin-top:8px">Dior 薑餅聖誕樹 11/22 撤展後，去年中庭換成<b>巨型 Bello Bear 聖誕小熊加放大版聖誕餐桌</b>，有麵包、薑餅人、甜點造景，小孩可以坐進棉花糖可可杯拍照，免費參觀。</p>
+  <div class="illus" style="margin:10px 0">
+    <div class="emo">🐻🎄</div>
+    <p>巨型 Bello Bear 是 2025 年的布置，目前找不到可授權的現場照片；2026 年接檔也還沒公告，因此用插圖代替，不拿別的照片來充當。</p>
+  </div>
   <div class="callout" style="margin-bottom:0">⚠️ 這是 2025 年的布置（展到隔年 1/4，12/12 維護日不開放）。2026 年的接檔布置還沒公告，12 月初要再確認。</div>
+  </div>
 </div>
 
 <h2><span class="e">📋</span>點菜清單</h2>
@@ -123,7 +185,7 @@ footer{font-size:12px;color:var(--mute);margin-top:28px;line-height:1.7}
 <div class="in">
   <p style="font-size:14px;color:var(--mute)">南洋料理。帶小孩一律單點（套餐咖哩不能調辣），點餐時說「完全不放辣椒」。</p>
   <div class="dish"><div><div class="nm">噴香酥炸檸檬魚</div><div class="nt">無刺、辣醬另裝，最推</div></div><div class="pr">現場價</div></div>
-  <div class="dish"><div><div class="nm">YABI 海南雞</div><div class="nt">去骨雞腿，辣醬另沾</div></div><div class="pr">約 380</div></div>
+  <div class="dish"><img class="ph" src="img/dish-hainan.webp" alt="海南雞飯示意，非本店出品" width="128" height="128" loading="lazy"><div class="grow"><div class="nm">YABI 海南雞</div><div class="nt">去骨雞腿，辣醬另沾。示意照片，非本店出品</div></div><div class="pr">約 380</div></div>
   <div class="dish"><div><div class="nm">棒棒香茅蝦</div><div class="nt">附酸甜醬</div></div><div class="pr">現場價</div></div>
   <div class="dish"><div><div class="nm">檳城香炒粿條</div><div class="nt">主食</div></div><div class="pr">現場價</div></div>
   <div class="dish"><div><div class="nm">香檸空心菜</div><div class="nt">不辣版青菜</div></div><div class="pr">現場價</div></div>
@@ -139,7 +201,7 @@ footer{font-size:12px;color:var(--mute);margin-top:28px;line-height:1.7}
 <summary>漢來上海湯包・Dream Plaza B2</summary>
 <div class="in">
   <p style="font-size:14px;color:var(--mute)">價格取自漢來其他分店 2026 年菜單，此店可能略有差異。</p>
-  <div class="dish"><div><div class="nm">招牌小籠湯包 ×3 籠</div><div class="nt">6 顆／籠，放涼再給小孩</div></div><div class="pr">140／籠</div></div>
+  <div class="dish"><img class="ph" src="img/dish-xlb.webp" alt="蒸籠裡的小籠包，示意照片，非本店出品" width="128" height="128" loading="lazy"><div class="grow"><div class="nm">招牌小籠湯包 ×3 籠</div><div class="nt">6 顆／籠，放涼再給小孩。示意照片，非本店出品</div></div><div class="pr">140／籠</div></div>
   <div class="dish"><div><div class="nm">蝦肉生煎湯包</div><div class="nt">底部酥脆，有蔥花</div></div><div class="pr">185</div></div>
   <div class="dish"><div><div class="nm">排骨蛋炒飯 ×2</div><div class="nt">招牌，排骨切小塊</div></div><div class="pr">390／份</div></div>
   <div class="dish"><div><div class="nm">原盅燉雞湯</div><div class="nt">清甜，分小碗</div></div><div class="pr">220</div></div>
@@ -159,7 +221,7 @@ footer{font-size:12px;color:var(--mute);margin-top:28px;line-height:1.7}
   <div class="dish"><div><div class="nm">蟹黃芙蓉豆腐</div><div class="nt">招牌，軟嫩</div></div><div class="pr">650</div></div>
   <div class="dish"><div><div class="nm">無錫排骨</div><div class="nt">鹹甜下飯</div></div><div class="pr">550</div></div>
   <div class="dish"><div><div class="nm">蝦仁炒飯 ×2</div><div class="nt">主食</div></div><div class="pr">320／份</div></div>
-  <div class="dish"><div><div class="nm">蘇式小籠包</div><div class="nt">小孩主力</div></div><div class="pr">現場價</div></div>
+  <div class="dish"><img class="ph" src="img/dish-xlb.webp" alt="蒸籠裡的小籠包，示意照片，非本店出品" width="128" height="128" loading="lazy"><div class="grow"><div class="nm">蘇式小籠包</div><div class="nt">小孩主力。示意照片，非本店出品</div></div><div class="pr">現場價</div></div>
   <div class="dish"><div><div class="nm">蘿蔔酥餅</div><div class="nt">限量，早點點</div></div><div class="pr">現場價</div></div>
   <div class="dish"><div><div class="nm">東坡肉佐餅</div><div class="nt">大人</div></div><div class="pr">390</div></div>
   <div class="dish"><div><div class="nm">紅豆鬆糕</div><div class="nt">甜點</div></div><div class="pr">現場價</div></div>
@@ -195,10 +257,16 @@ footer{font-size:12px;color:var(--mute);margin-top:28px;line-height:1.7}
 </ul>
 </div>
 
-<footer>資料查詢日：2026/11/16。價格、營業時間與布置以店家及百貨當天公告為準。<br>來源：inline、新光三越訂位頁、Uber Eats 漢來菜單、新光三越紅豆食府外帶菜單、abic 愛貝客、LINE TODAY 景點家、食尚玩家、經濟日報，以及 YABI 與紅豆食府食記。</footer>
+<footer>資料查詢日：2026/11/16。價格、營業時間與布置以店家及百貨當天公告為準。<br>來源：inline、新光三越訂位頁、Uber Eats 漢來菜單、新光三越紅豆食府外帶菜單、abic 愛貝客、LINE TODAY 景點家、食尚玩家、經濟日報，以及 YABI 與紅豆食府食記。<br>照片已下載至本頁，不外連。來源皆為 Wikimedia Commons：A11 聖誕樹與 101 遠景（阿道，CC BY-SA 4.0，2025）、A11 白色聖誕樹（Solomon203，CC BY-SA 4.0，2023）、香堤大道聖誕樹（Heeheemalu，CC BY-SA 4.0，2025）、BELLAVITA 中庭（玄史生，CC0）、BELLAVITA 夜景（Wei-Te Wong，CC BY-SA 2.0，2011）、小籠包示意（Willis Lam，CC BY-SA 2.0）、海南雞飯示意（bryan...，CC BY-SA 2.0）。菜餚若標示「示意」則非該店出品。Bello Bear、博客來、統一麵包、Purple Wish 目前沒有合適的授權照片，改用插圖。</footer>
 </section>
 
 <section id="planB" class="hidden">
+<div class="hero wide">
+  <figure>
+    <img src="img/b-path.webp" alt="后豐鐵馬道綠蔭車道，路面寫著腳踏車專用" width="800" height="452" loading="lazy">
+    <figcaption class="credit">后豐鐵馬道。照片：Fcuk1203／Wikimedia Commons，<a href="https://commons.wikimedia.org/wiki/File:%E5%90%8E%E8%B1%90%E9%90%B5%E9%A6%AC%E9%81%93.jpg">CC BY-SA 3.0</a>。</figcaption>
+  </figure>
+</div>
 <h2><span class="e">🚲</span>后豐鐵馬道一日遊</h2>
 <p class="plan-intro">兩家開車前往（預計兩台車），車停在后里端再來回騎。后豐單程 5.8 公里，小孩節奏加上拍照，來回剛好一個上午加一個午後；東豐綠廊只建議再加 1～2 公里。午餐可在豐原端附近吃，晚餐再開車到后里交流道附近，比較好回家。</p>
 
@@ -212,10 +280,10 @@ footer{font-size:12px;color:var(--mute);margin-top:28px;line-height:1.7}
 <h2><span class="e">🗺️</span>建議時程</h2>
 <div class="card"><div class="tl">
   <div class="ev"><div class="t">07:30</div><div class="n">桃園／台北出發</div><div class="d">兩台車走國道。龜山一帶順暢約 1.5 小時，台北出發約 1.5～2 小時。週末南下可能多 20～40 分，出發前看 1968</div></div>
-  <div class="ev"><div class="t">09:00</div><div class="n">抵達鐵馬哥、停車租車</div><div class="d">開到寺山路 91 號店門口，店家安排免費車位。先預約電動車加兒童座，小孩用原車的安全座椅</div></div>
-  <div class="ev"><div class="t">09:30</div><div class="n">九號隧道</div><div class="d">全長 1.2 公里，舊山線最長隧道，裡面涼、有照明。冬天請在 18:00 前通過</div></div>
-  <div class="ev"><div class="t">10:00</div><div class="n">花樑鋼橋</div><div class="d">跨大甲溪，長 382 公尺。橋上風大，握穩車把、給小孩加衣服</div></div>
-  <div class="ev rest"><div class="t">11:00</div><div class="n">豐原端小歇<span class="badge b-rest">休息</span></div><div class="d">可再往東豐綠廊騎 1～2 公里看榮町雜貨店，不要挑戰全程 13.6 公里</div></div>
+  <div class="ev"><figure class="pic-ev"><img src="img/b-childseat.webp" alt="自行車後座兒童座示意，非鐵馬哥車輛" width="800" height="450" loading="lazy"><figcaption class="credit">兒童座示意，非鐵馬哥車輛。照片：MenkinAlRire／Wikimedia Commons，CC BY-SA 4.0。</figcaption></figure><div class="t">09:00</div><div class="n">抵達鐵馬哥、停車租車</div><div class="d">開到寺山路 91 號店門口，店家安排免費車位。先預約電動車加兒童座，小孩用原車的安全座椅</div></div>
+  <div class="ev"><figure class="pic-ev"><img src="img/b-tunnel.webp" alt="后豐鐵馬道九號隧道入口，騎單車的人正進入隧道" width="739" height="415" loading="lazy"><figcaption class="credit">九號隧道入口。照片：Roben／Wikimedia Commons，CC BY 2.0。</figcaption></figure><div class="t">09:30</div><div class="n">九號隧道</div><div class="d">全長 1.2 公里，舊山線最長隧道，裡面涼、有照明。冬天請在 18:00 前通過</div></div>
+  <div class="ev"><figure class="pic-ev"><img src="img/b-bridge.webp" alt="后豐鐵馬道花樑鋼橋，綠道上有人騎車，橋下為大甲溪" width="800" height="449" loading="lazy"><figcaption class="credit">花樑鋼橋，橫跨大甲溪。照片：Fcuk1203／Wikimedia Commons，CC BY-SA 3.0。</figcaption></figure><div class="t">10:00</div><div class="n">花樑鋼橋</div><div class="d">跨大甲溪，長 382 公尺。橋上風大，握穩車把、給小孩加衣服</div></div>
+  <div class="ev rest"><figure class="pic-ev"><img src="img/b-dongfeng.webp" alt="東豐自行車綠廊，騎單車的人行經紅色欄杆的橋" width="800" height="450" loading="lazy"><figcaption class="credit">東豐自行車綠廊。照片：林高志／Wikimedia Commons，CC BY-SA 4.0。</figcaption></figure><div class="t">11:00</div><div class="n">豐原端小歇<span class="badge b-rest">休息</span></div><div class="d">可再往東豐綠廊騎 1～2 公里看榮町雜貨店，不要挑戰全程 13.6 公里</div></div>
   <div class="ev meal" id="b-lunch-ev"><div class="t">12:00</div><div class="n">午餐<span class="badge b-meal">要訂位</span></div><div class="d" id="b-lunch-d"></div></div>
   <div class="ev"><div class="t">13:45</div><div class="n">原路騎回后里</div><div class="d">車停在后里，一定要騎回來還車。再走一次鋼橋和隧道，電動車較不累</div></div>
   <div class="ev rest"><div class="t">15:15</div><div class="n">還車、休息<span class="badge b-rest">休息</span></div><div class="d">在店裡喝口水、上廁所，再開車去吃晚餐</div></div>
@@ -240,11 +308,17 @@ footer{font-size:12px;color:var(--mute);margin-top:28px;line-height:1.7}
 
 <h2><span class="e">🚴</span>租車（先打電話留車）</h2>
 <div class="callout">3～5 歲還不能自己踩，要坐兒童座或親子車。週六屬例假日，<b>三輪以上車輛（含四人電動敞篷車）不能上鐵馬道</b>。請租單人／雙人電動車並加裝兒童座。兒童座身高體重限制請電話確認。</div>
-<div class="card">
+<div class="card with-pic">
+  <figure class="card-photo">
+    <img src="img/b-childseat.webp" alt="自行車後座兒童座示意，非鐵馬哥車輛" width="800" height="450" loading="lazy">
+    <figcaption class="credit">兒童座示意，不是鐵馬哥的車或座椅。店家現場款式請電話確認。照片：MenkinAlRire／Wikimedia Commons，<a href="https://commons.wikimedia.org/wiki/File:Children%27s_bicycle_seat,_Bologna.jpg">CC BY-SA 4.0</a>。</figcaption>
+  </figure>
+  <div class="card-body">
   <div class="rest-h"><h3>鐵馬哥租車中心（首選）</h3><span>鐵馬道入口旁</span></div>
   <p style="margin-top:8px">寺山路 91 號，店就在車道起點，開車最方便。官網價：親子車 200 元；單人電動 400～500 元／兩小時；雙人電動 600～700 元／兩小時。電動車公會限時 2 小時，鐵馬哥多送 1 小時。可加裝兒童座（加價請現場問）。</p>
   <p style="margin-top:8px">7 人可問：兩台雙人電動加兒童座，再加一台單人電動加兒童座。冬季假日有資料寫 07:00–17:30，請先確認，並在 16:30 前還車較保險。</p>
   <div class="row2"><a class="btn" href="tel:0910585579">撥 0910-585-579</a><a class="btn ghost" href="https://tmgcycle.net/">官方網站</a></div>
+  </div>
 </div>
 <div class="card">
   <div class="rest-h"><h3>奇典租車行</h3><span>后里車站旁</span></div>
@@ -259,10 +333,10 @@ footer{font-size:12px;color:var(--mute);margin-top:28px;line-height:1.7}
 
 <h2><span class="e">🌿</span>路線重點</h2>
 <div class="card">
-  <div class="hl"><h3>后豐鐵馬道 5.8 公里</h3><p class="d" style="color:var(--mute)">由台鐵舊山線整建，官方建議約 1 小時；帶 3～5 歲小孩、加上拍照，單程預留 60～90 分。來回約 11.6 公里，配電動車剛好。</p></div>
-  <div class="hl"><h3>九號隧道 1.2 公里</h3><p class="d" style="color:var(--mute)">舊山線最長隧道，有照明和通風。10–3 月多份資料寫開放 06:00–18:00，4–9 月到 19:00。關門後只能改騎馬路，很危險，務必在時限內折返。</p></div>
-  <div class="hl"><h3>花樑鋼橋 382 公尺</h3><p class="d" style="color:var(--mute)">1908 年完工，橫跨大甲溪。冬天橋上風明顯，停下來拍照時靠邊、不要並排堵住。</p></div>
-  <div class="hl"><h3>東豐綠廊（加碼）</h3><p class="d" style="color:var(--mute)">豐原端接著就是東豐自行車綠廊，全長 13.6 公里，兩條合起來約 19 公里。小孩行程只建議再騎 1～2 公里就回頭，不要騎到石岡或東勢。</p></div>
+  <div class="hl"><figure class="hl-pic"><img src="img/b-path.webp" alt="后豐鐵馬道綠蔭車道" width="800" height="452" loading="lazy"><figcaption class="credit">后豐鐵馬道。照片：Fcuk1203／Wikimedia Commons，CC BY-SA 3.0。</figcaption></figure><h3>后豐鐵馬道 5.8 公里</h3><p class="d" style="color:var(--mute)">由台鐵舊山線整建，官方建議約 1 小時；帶 3～5 歲小孩、加上拍照，單程預留 60～90 分。來回約 11.6 公里，配電動車剛好。</p></div>
+  <div class="hl"><figure class="hl-pic"><img src="img/b-tunnel.webp" alt="后豐鐵馬道九號隧道入口" width="739" height="415" loading="lazy"><figcaption class="credit">九號隧道。照片：Roben／Wikimedia Commons，CC BY 2.0。</figcaption></figure><h3>九號隧道 1.2 公里</h3><p class="d" style="color:var(--mute)">舊山線最長隧道，有照明和通風。10–3 月多份資料寫開放 06:00–18:00，4–9 月到 19:00。關門後只能改騎馬路，很危險，務必在時限內折返。</p></div>
+  <div class="hl"><figure class="hl-pic"><img src="img/b-bridge.webp" alt="花樑鋼橋與大甲溪" width="800" height="449" loading="lazy"><figcaption class="credit">花樑鋼橋。照片：Fcuk1203／Wikimedia Commons，CC BY-SA 3.0。</figcaption></figure><h3>花樑鋼橋 382 公尺</h3><p class="d" style="color:var(--mute)">1908 年完工，橫跨大甲溪。冬天橋上風明顯，停下來拍照時靠邊、不要並排堵住。</p></div>
+  <div class="hl"><figure class="hl-pic"><img src="img/b-dongfeng.webp" alt="東豐自行車綠廊" width="800" height="450" loading="lazy"><figcaption class="credit">東豐自行車綠廊。照片：林高志／Wikimedia Commons，CC BY-SA 4.0。</figcaption></figure><h3>東豐綠廊（加碼）</h3><p class="d" style="color:var(--mute)">豐原端接著就是東豐自行車綠廊，全長 13.6 公里，兩條合起來約 19 公里。小孩行程只建議再騎 1～2 公里就回頭，不要騎到石岡或東勢。</p></div>
 </div>
 
 <h2><span class="e">🍽️</span>選午餐</h2>
@@ -318,7 +392,7 @@ footer{font-size:12px;color:var(--mute);margin-top:28px;line-height:1.7}
 </div>
 <p class="est">油錢以龜山～后里約 112 公里、台北出發較遠來估算；過路費依國 1 林口或台北交流道至后里、當日來回累計、每日 20 公里免費計算。12/19 不是連假，適用一般費率。實際以中油牌價、遠通試算和店家公告為準。</p>
 
-<footer>方案 B 資料查詢日：2026/11/17。開車時間會受週末車潮影響，出發前請再查 1968。<br>來源：鐵馬哥交通與停車頁、臺中觀光旅遊網后豐鐵馬道／東豐綠廊／北部開車說明、台灣騎跡停車資訊、高速公路局今日通行費率與 1968、台灣中油 115/11/16 油價、ㄎㄠ一杯官網菜單、梨子咖啡館官網分店頁、陶板屋官網分店頁、天奕食記與訂位頁、星月大地公開訂位與食記、享千葉／千葉火鍋豐原店公開收費、國立自然科學博物館開放時間與票價、波比看世界后豐攻略（2026/08/23）。</footer>
+<footer>方案 B 資料查詢日：2026/11/17。開車時間會受週末車潮影響，出發前請再查 1968。<br>來源：鐵馬哥交通與停車頁、臺中觀光旅遊網后豐鐵馬道／東豐綠廊／北部開車說明、台灣騎跡停車資訊、高速公路局今日通行費率與 1968、台灣中油 115/11/16 油價、ㄎㄠ一杯官網菜單、梨子咖啡館官網分店頁、陶板屋官網分店頁、天奕食記與訂位頁、星月大地公開訂位與食記、享千葉／千葉火鍋豐原店公開收費、國立自然科學博物館開放時間與票價、波比看世界后豐攻略（2026/08/23）。<br>照片已下載至本頁，不外連。來源皆為 Wikimedia Commons：后豐鐵馬道（Fcuk1203，CC BY-SA 3.0）、花樑鋼橋（Fcuk1203，CC BY-SA 3.0）、九號隧道（Roben，CC BY 2.0）、東豐綠廊（林高志，CC BY-SA 4.0）、兒童座示意（MenkinAlRire，CC BY-SA 4.0）、義大利麵示意（DC，CC BY-SA 3.0）、火鍋示意（pelican，CC BY-SA 2.0）。菜餚若標示「示意」則非該店出品。鐵馬哥店面、ㄎㄠ一杯芋頭鴨與豬腳、陶板屋、星月大地目前沒有合適的授權照片，改用插圖。</footer>
 </section>
 
 </div>
@@ -328,40 +402,46 @@ const notes={
  A:"午 YABI、晚 漢來：兩餐都在 Dream Plaza，南洋加上海不重複，最省力。",
  B:"午 紅豆食府、晚 漢來：午餐較有質感，但兩餐都是上海菜。",
  C:"午 紅豆食府、晚 YABI：上海加南洋，晚餐在 4F，下樓看燈近。"};
-const bella={t:"15:30",n:"貴婦百貨 Bello Bear 聖誕餐桌",d:"BELLAVITA 1F 中庭拍照（今年布置待確認）",k:"new"};
+const cap={
+ xlb:'小籠包示意，非本店出品。照片：Willis Lam／Wikimedia Commons，CC BY-SA 2.0。',
+ hai:'海南雞飯示意，非本店出品。照片：bryan...／Wikimedia Commons，CC BY-SA 2.0。',
+ a11:'2023 年 A11 白色聖誕樹，每年造型不同。照片：Solomon203／Wikimedia Commons，CC BY-SA 4.0。',
+ bv:'BELLAVITA 1F 中庭一般樣貌，不是 2026 布置。照片：玄史生／Wikimedia Commons，CC0。'
+};
+const bella={t:"15:30",n:"貴婦百貨 Bello Bear 聖誕餐桌",d:"BELLAVITA 1F 中庭拍照（今年布置待確認）",k:"new",img:"img/a-bellavita.webp",alt:"BELLAVITA 寶麗廣塲 1F 中庭一般樣貌",w:800,h:450,credit:cap.bv};
 const plans={
- A:[{t:"11:30",n:"午餐 YABI KITCHEN",d:"Dream Plaza 4F",k:"meal"},
-    {t:"13:00",n:"博客來繪本區・推車午睡",d:"Dream Plaza 6F",k:"rest"},
-    {t:"14:00",n:"統一麵包盲盒活動",d:"統一時代，整點一場",k:""},
+ A:[{t:"11:30",n:"午餐 YABI KITCHEN",d:"Dream Plaza 4F",k:"meal",img:"img/dish-hainan.webp",alt:"海南雞飯示意，非本店出品",w:800,h:450,credit:cap.hai},
+    {t:"13:00",n:"博客來繪本區・推車午睡",d:"Dream Plaza 6F",k:"rest",illus:["📚🧸","博客來繪本區目前沒有合適的授權照片，用插圖代替。"]},
+    {t:"14:00",n:"統一麵包盲盒活動",d:"統一時代，整點一場",k:"",illus:["🍞🎁","統一麵包盲盒活動目前沒有合適的授權照片，用插圖代替。"]},
     bella,
-    {t:"16:15",n:"新光三越空橋星星之海",d:"2F 空橋 A8～A11",k:""},
-    {t:"16:30",n:"A11 聖誕樹飄雪秀",d:"每 15 分鐘一場",k:""},
-    {t:"17:15",n:"晚餐 漢來上海湯包",d:"Dream Plaza B2",k:"meal"},
-    {t:"18:30",n:"Purple Wish 燈光秀",d:"統一時代夢廣場，B2 直通",k:""},
+    {t:"16:15",n:"新光三越空橋星星之海",d:"2F 空橋 A8～A11",k:"",illus:["✨🌉","空橋「星星之海」目前沒有合適的授權照片，用插圖代替。"]},
+    {t:"16:30",n:"A11 聖誕樹飄雪秀",d:"每 15 分鐘一場",k:"",img:"img/a-a11-crowd.webp",alt:"新光三越 A11 廣場上的白色聖誕樹與參觀人潮",w:800,h:450,credit:cap.a11},
+    {t:"17:15",n:"晚餐 漢來上海湯包",d:"Dream Plaza B2",k:"meal",img:"img/dish-xlb.webp",alt:"蒸籠裡的小籠包，示意照片，非本店出品",w:800,h:450,credit:cap.xlb},
+    {t:"18:30",n:"Purple Wish 燈光秀",d:"統一時代夢廣場，B2 直通",k:"",illus:["💜✨","統一時代 Purple Wish 燈光秀目前沒有合適的授權照片，用插圖代替。"]},
     {t:"19:00",n:"回家",d:"",k:""}],
- B:[{t:"11:30",n:"午餐 紅豆食府",d:"新光三越 A9 7F",k:"meal"},
-    {t:"13:00",n:"A9 B1 拍貼・2F 空橋燈廊",d:"新光三越",k:"rest"},
-    {t:"14:00",n:"統一麵包盲盒活動",d:"統一時代，整點一場",k:""},
-    {t:"15:00",n:"博客來繪本區休息",d:"Dream Plaza 6F",k:"rest"},
-    {t:"15:45",n:bella.n,d:bella.d,k:"new"},
-    {t:"16:30",n:"A11 聖誕樹飄雪秀",d:"每 15 分鐘一場",k:""},
-    {t:"17:15",n:"晚餐 漢來上海湯包",d:"Dream Plaza B2",k:"meal"},
-    {t:"18:30",n:"Purple Wish 燈光秀",d:"統一時代夢廣場",k:""},
+ B:[{t:"11:30",n:"午餐 紅豆食府",d:"新光三越 A9 7F",k:"meal",img:"img/dish-xlb.webp",alt:"小籠包示意，非本店出品",w:800,h:450,credit:cap.xlb},
+    {t:"13:00",n:"A9 B1 拍貼・2F 空橋燈廊",d:"新光三越",k:"rest",illus:["✨📸","空橋燈廊目前沒有合適的授權照片，用插圖代替。"]},
+    {t:"14:00",n:"統一麵包盲盒活動",d:"統一時代，整點一場",k:"",illus:["🍞🎁","統一麵包盲盒活動目前沒有合適的授權照片，用插圖代替。"]},
+    {t:"15:00",n:"博客來繪本區休息",d:"Dream Plaza 6F",k:"rest",illus:["📚🧸","博客來繪本區目前沒有合適的授權照片，用插圖代替。"]},
+    {...bella, t:"15:45"},
+    {t:"16:30",n:"A11 聖誕樹飄雪秀",d:"每 15 分鐘一場",k:"",img:"img/a-a11-crowd.webp",alt:"新光三越 A11 廣場上的白色聖誕樹與參觀人潮",w:800,h:450,credit:cap.a11},
+    {t:"17:15",n:"晚餐 漢來上海湯包",d:"Dream Plaza B2",k:"meal",img:"img/dish-xlb.webp",alt:"蒸籠裡的小籠包，示意照片，非本店出品",w:800,h:450,credit:cap.xlb},
+    {t:"18:30",n:"Purple Wish 燈光秀",d:"統一時代夢廣場",k:"",illus:["💜✨","統一時代 Purple Wish 燈光秀目前沒有合適的授權照片，用插圖代替。"]},
     {t:"19:00",n:"回家",d:"",k:""}],
- C:[{t:"11:30",n:"午餐 紅豆食府",d:"新光三越 A9 7F",k:"meal"},
-    {t:"13:00",n:"A9 B1 拍貼・2F 空橋燈廊",d:"新光三越",k:"rest"},
-    {t:"14:00",n:"統一麵包盲盒活動",d:"統一時代，整點一場",k:""},
-    {t:"15:00",n:"博客來繪本區休息",d:"Dream Plaza 6F",k:"rest"},
-    {t:"15:45",n:bella.n,d:bella.d,k:"new"},
-    {t:"16:30",n:"A11 聖誕樹飄雪秀",d:"每 15 分鐘一場",k:""},
-    {t:"17:15",n:"晚餐 YABI KITCHEN",d:"Dream Plaza 4F",k:"meal"},
-    {t:"18:30",n:"Purple Wish 燈光秀",d:"統一時代夢廣場",k:""},
+ C:[{t:"11:30",n:"午餐 紅豆食府",d:"新光三越 A9 7F",k:"meal",img:"img/dish-xlb.webp",alt:"小籠包示意，非本店出品",w:800,h:450,credit:cap.xlb},
+    {t:"13:00",n:"A9 B1 拍貼・2F 空橋燈廊",d:"新光三越",k:"rest",illus:["✨📸","空橋燈廊目前沒有合適的授權照片，用插圖代替。"]},
+    {t:"14:00",n:"統一麵包盲盒活動",d:"統一時代，整點一場",k:"",illus:["🍞🎁","統一麵包盲盒活動目前沒有合適的授權照片，用插圖代替。"]},
+    {t:"15:00",n:"博客來繪本區休息",d:"Dream Plaza 6F",k:"rest",illus:["📚🧸","博客來繪本區目前沒有合適的授權照片，用插圖代替。"]},
+    {...bella, t:"15:45"},
+    {t:"16:30",n:"A11 聖誕樹飄雪秀",d:"每 15 分鐘一場",k:"",img:"img/a-a11-crowd.webp",alt:"新光三越 A11 廣場上的白色聖誕樹與參觀人潮",w:800,h:450,credit:cap.a11},
+    {t:"17:15",n:"晚餐 YABI KITCHEN",d:"Dream Plaza 4F",k:"meal",img:"img/dish-hainan.webp",alt:"海南雞飯示意，非本店出品",w:800,h:450,credit:cap.hai},
+    {t:"18:30",n:"Purple Wish 燈光秀",d:"統一時代夢廣場",k:"",illus:["💜✨","統一時代 Purple Wish 燈光秀目前沒有合適的授權照片，用插圖代替。"]},
     {t:"19:00",n:"回家",d:"",k:""}]};
 const label={meal:'<span class="badge b-meal">要訂位</span>',new:'<span class="badge b-new">新增</span>',rest:'<span class="badge b-rest">休息</span>'};
 function show(c){
  document.querySelectorAll('#planA .tabs button').forEach(b=>b.classList.toggle('on',b.dataset.c===c));
  document.getElementById('note').textContent=notes[c];
- document.getElementById('tl').innerHTML=plans[c].map(e=>`<div class="ev ${e.k}"><div class="t">${e.t}</div><div class="n">${e.n}${e.k?label[e.k]:''}</div>${e.d?`<div class="d">${e.d}</div>`:''}</div>`).join('');
+ document.getElementById('tl').innerHTML=plans[c].map(e=>`<div class="ev ${e.k}">${e.illus?`<div class="illus"><div class="emo">${e.illus[0]}</div><p>${e.illus[1]}</p></div>`:e.img?`<figure class="pic-ev"><img src="${e.img}" alt="${e.alt||''}" width="${e.w||800}" height="${e.h||450}" loading="lazy"><figcaption class="credit">${e.credit||''}</figcaption></figure>`:''}<div class="t">${e.t}</div><div class="n">${e.n}${e.k?label[e.k]:''}</div>${e.d?`<div class="d">${e.d}</div>`:''}</div>`).join('');
 }
 document.querySelectorAll('#planA .tabs button').forEach(b=>b.onclick=()=>show(b.dataset.c));
 show('A');
@@ -378,6 +458,7 @@ document.querySelectorAll('.plan-tabs button').forEach(b=>b.onclick=()=>showPlan
 const bMeals={
 l1:{name:"午餐 ㄎㄠ一杯",where:"豐原台菜，豐東路 392 號。離鐵馬道豐原端約 5～10 分，向租車店問路或短程騎過去。",html:`
 <div class="card">
+  <div class="illus"><div class="emo">🦆🍠🐖</div><p>招牌芋頭鴨、燉豬腳目前沒有合適的授權照片，用插圖代替，不拿別家菜色充當。</p></div>
   <div class="rest-h"><h3>ㄎㄠ一杯臺灣菜專門店<span class="tag-top">午餐首選</span></h3><span>週六 11:30–20:30</span></div>
   <p class="meta">豐東路 392 號。有大圓桌最多 15 人，適合 7 人同桌。建議單點，不要點十人合菜裡的左宗棠雞（必辣）。預估 3,500～5,000 元。</p>
   <div class="dish"><div><div class="nm">自慢芋頭鴨</div><div class="nt">招牌，酥脆芋泥夾手撕鴨</div></div><div class="pr">460</div></div>
@@ -392,11 +473,12 @@ l1:{name:"午餐 ㄎㄠ一杯",where:"豐原台菜，豐東路 392 號。離鐵�
 </div>`},
 l2:{name:"午餐 梨子豐原店",where:"陽明街 86 號，豐原市區，離鐵馬道豐原端約 10～15 分。",html:`
 <div class="card">
+  <figure class="meal-pic"><img src="img/dish-pasta.webp" alt="義大利麵示意，非本店出品" width="800" height="450" loading="lazy"><figcaption class="credit">義大利麵示意，非本店出品。照片：DC／Wikimedia Commons，CC BY-SA 3.0。</figcaption></figure>
   <div class="rest-h"><h3>梨子咖啡館 豐原店</h3><span>08:00–21:00</span></div>
   <p class="meta">陽明街 86 號（陽明大樓旁）。家庭餐、有兒童座椅，兒童餐與遊戲設施請訂位時確認。7 人預估 3,000～4,500 元。電話 04-2527-6799。</p>
   <div class="dish"><div><div class="nm">法式鄉村南瓜鍋</div><div class="nt">多人分食，口味溫和</div></div><div class="pr">現場價</div></div>
   <div class="dish"><div><div class="nm">祖傳梅子雞鍋</div><div class="nt">常被推薦的鍋物</div></div><div class="pr">現場價</div></div>
-  <div class="dish"><div><div class="nm">玉米濃湯、主餐義大利麵或燉飯</div><div class="nt">大人可單點套餐</div></div><div class="pr">現場價</div></div>
+  <div class="dish"><img class="ph" src="img/dish-pasta.webp" alt="義大利麵示意，非本店出品" width="128" height="128" loading="lazy"><div class="grow"><div class="nm">玉米濃湯、主餐義大利麵或燉飯</div><div class="nt">大人可單點套餐。示意照片，非本店出品</div></div><div class="pr">現場價</div></div>
   <div class="dish"><div><div class="nm">兒童餐 ×3</div><div class="nt">點餐時要兒童座椅</div></div><div class="pr">現場價</div></div>
   <div class="avoid"><b>注意：</b>假日建議先電話或 OpenTable 訂位。遊戲室最完整的是北屯崇德店，回程要繞路，午餐還是吃豐原店較近。</div>
   <p class="est">菜名取自官網與食記，價格以 12 月店內菜單為準。</p>
@@ -404,6 +486,7 @@ l2:{name:"午餐 梨子豐原店",where:"陽明街 86 號，豐原市區，離�
 </div>`},
 l3:{name:"午餐 陶板屋豐原向陽店",where:"向陽路 130 號 B1 之 2，豐原車站步行約 300 公尺；離鐵馬道豐原端約 10～15 分。週六午市 11:00–14:30，最後點餐 14:00。",html:`
 <div class="card">
+  <div class="illus"><div class="emo">🍱🥩</div><p>陶板屋和風套餐目前沒有合適的授權照片，用插圖代替。</p></div>
   <div class="rest-h"><h3>陶板屋 豐原向陽店</h3><span>午市至 14:30</span></div>
   <p class="meta">向陽路 130 號 B1 之 2。和風套餐，出餐穩定、好帶小孩。週六 11:00–14:30，最後點餐 14:00。7 人預估約 4,000～4,500 元（含服務費）。</p>
   <div class="dish"><div><div class="nm">大人套餐 ×4</div><div class="nt">前菜、主餐、飯、湯、甜點</div></div><div class="pr">現場價</div></div>
@@ -414,9 +497,10 @@ l3:{name:"午餐 陶板屋豐原向陽店",where:"向陽路 130 號 B1 之 2，�
 </div>`},
 l4:{name:"午餐 天奕 TY.CAFE",where:"后里甲后路二段 72 號，近后里交流道，離鐵馬哥約 10～15 分開車。適合提早結束騎乘、先回停車點再吃。",html:`
 <div class="card">
+  <figure class="meal-pic"><img src="img/dish-pasta.webp" alt="義大利麵示意，非本店出品" width="800" height="450" loading="lazy"><figcaption class="credit">義大利麵示意，非本店出品。照片：DC／Wikimedia Commons，CC BY-SA 3.0。</figcaption></figure>
   <div class="rest-h"><h3>天奕創意料理咖啡 TY.CAFE</h3><span>週一公休</span></div>
   <p class="meta">甲后路二段 72 號。中西式簡餐，有免費停車場、戶外草地溜滑梯，可訂包廂（食記 9 人曾入包廂）。餐點約 150–350 元，7 人預估 2,500～3,500 元。電話 04-2557-1527。</p>
-  <div class="dish"><div><div class="nm">酒蒸蛤蜊義大利麵、青醬燻雞燉飯</div><div class="nt">口味偏重，可請廚房少鹽、不辣</div></div><div class="pr">約 230</div></div>
+  <div class="dish"><img class="ph" src="img/dish-pasta.webp" alt="義大利麵示意，非本店出品" width="128" height="128" loading="lazy"><div class="grow"><div class="nm">酒蒸蛤蜊義大利麵、青醬燻雞燉飯</div><div class="nt">口味偏重，可請廚房少鹽、不辣。示意照片，非本店出品</div></div><div class="pr">約 230</div></div>
   <div class="dish"><div><div class="nm">溫州大餛飩、乾麵</div><div class="nt">較清淡的中式選擇，適合小孩</div></div><div class="pr">約 80／70</div></div>
   <div class="dish"><div><div class="nm">薯條、雞塊</div><div class="nt">給小孩加點</div></div><div class="pr">約 60</div></div>
   <div class="avoid"><b>注意：</b>有資料寫用餐限 90 分鐘；週六結束時間有 19:30 和 20:30 兩種說法，訂位時確認。若午餐選這家，晚餐請換一家。</div>
@@ -425,6 +509,7 @@ l4:{name:"午餐 天奕 TY.CAFE",where:"后里甲后路二段 72 號，近后里
 </div>`},
 d1:{name:"晚餐 星月大地",where:"月眉北路 486 號，麗寶旁，離后里交流道約 5 分、鐵馬哥約 15～20 分，吃完上國道最順。",html:`
 <div class="card">
+  <div class="illus"><div class="emo">🌙🍽️</div><p>星月大地景觀與合菜目前沒有合適的授權照片，用插圖代替。</p></div>
   <div class="rest-h"><h3>星月大地景觀餐廳<span class="tag-top">晚餐首選</span></h3><span>近后里交流道</span></div>
   <p class="meta">月眉北路 486 號。7 人建議訂景觀宴會廳合菜，同桌比較寬敞；園區有遊戲區和餵魚，12 月晚上偏涼，戲水不適合。食記寫桌菜約 5,500 元＋10% 起，7 人實際菜色和價格一定要先打電話問。也可用咖啡廳線上訂位，但大桌請先確認。</p>
   <div class="dish"><div><div class="nm">宴會廳 7 人合菜</div><div class="nt">請店家排不辣、好入口的菜</div></div><div class="pr">電話詢價</div></div>
@@ -435,6 +520,7 @@ d1:{name:"晚餐 星月大地",where:"月眉北路 486 號，麗寶旁，離后�
 </div>`},
 d2:{name:"晚餐 陶板屋豐原向陽店",where:"向陽路 130 號 B1 之 2，豐原車站步行約 300 公尺；從鐵馬哥開車約 15～20 分。週六 17:00–22:00，最後點餐 21:00。",html:`
 <div class="card">
+  <div class="illus"><div class="emo">🍱🥩</div><p>陶板屋和風套餐目前沒有合適的授權照片，用插圖代替。</p></div>
   <div class="rest-h"><h3>陶板屋 豐原向陽店</h3><span>週六 17:00 起</span></div>
   <p class="meta">向陽路 130 號 B1 之 2。和風套餐，出餐穩定。週六 17:00–22:00，最後點餐 21:00。7 人預估約 4,000～4,500 元（含服務費）。吃完再開回后里交流道或國 1 豐原交流道回家。</p>
   <div class="dish"><div><div class="nm">大人套餐 ×4</div><div class="nt">前菜、主餐、飯、湯、甜點</div></div><div class="pr">現場價</div></div>
@@ -445,18 +531,20 @@ d2:{name:"晚餐 陶板屋豐原向陽店",where:"向陽路 130 號 B1 之 2，�
 </div>`},
 d3:{name:"晚餐 天奕 TY.CAFE",where:"后里甲后路二段 72 號，離鐵馬哥約 10～15 分，也靠近后里交流道。",html:`
 <div class="card">
+  <figure class="meal-pic"><img src="img/dish-pasta.webp" alt="義大利麵示意，非本店出品" width="800" height="450" loading="lazy"><figcaption class="credit">義大利麵示意，非本店出品。照片：DC／Wikimedia Commons，CC BY-SA 3.0。</figcaption></figure>
   <div class="rest-h"><h3>天奕創意料理咖啡 TY.CAFE</h3><span>週一公休</span></div>
   <p class="meta">甲后路二段 72 號。有免費停車場和戶外溜滑梯，適合還車後就近吃飯。7 人預估 2,500～3,500 元。有資料寫週六只開到 19:30，17:15 用餐前要先確認打烊時間。</p>
-  <div class="dish"><div><div class="nm">義大利麵或燉飯（請廚房少鹽、不辣）</div><div class="nt">大人主餐</div></div><div class="pr">約 230</div></div>
+  <div class="dish"><img class="ph" src="img/dish-pasta.webp" alt="義大利麵示意，非本店出品" width="128" height="128" loading="lazy"><div class="grow"><div class="nm">義大利麵或燉飯（請廚房少鹽、不辣）</div><div class="nt">大人主餐。示意照片，非本店出品</div></div><div class="pr">約 230</div></div>
   <div class="dish"><div><div class="nm">餛飩湯、乾麵、薯條雞塊</div><div class="nt">給小孩</div></div><div class="pr">約 60～80</div></div>
   <div class="avoid"><b>注意：</b>可能限時 90 分鐘。若午餐已選這家，晚餐請換一家。</div>
   <div class="row2"><a class="btn" href="https://reservation.maifood.com.tw/TianYiChuangYiLiaoLiKaFei/TianYiChuangYiLiaoLiKaFei1/reserve">線上訂位</a><a class="btn ghost" href="tel:0425571527">撥電話</a></div>
 </div>`},
 d4:{name:"晚餐 享千葉火鍋豐原",where:"自成街 66 號，豐原車站附近，從鐵馬哥開車約 15～20 分。有包廂，挑食的小孩比較好解決。",html:`
 <div class="card">
+  <figure class="meal-pic"><img src="img/dish-hotpot.webp" alt="火鍋示意，非本店出品" width="800" height="450" loading="lazy"><figcaption class="credit">火鍋示意，非本店出品。照片：pelican／Wikimedia Commons，CC BY-SA 2.0。</figcaption></figure>
   <div class="rest-h"><h3>享千葉火鍋 豐原尊爵館</h3><span>11:00–22:00</span></div>
   <p class="meta">自成街 66 號。火鍋加自助吧，有包廂請先訂。假日成人 629＋10%（約 692），兒童（6–10 歲或 115–139 公分）328＋10%；2–5 歲或 65–114 公分收清潔費 100 元。三個小孩多半按身高算，訂位時先問清楚。7 人預估約 3,000～4,200 元。</p>
-  <div class="dish"><div><div class="nm">火鍋＋自助吧</div><div class="nt">菜、肉、飲料、甜點自己取，小孩好挑</div></div><div class="pr">依身高</div></div>
+  <div class="dish"><img class="ph" src="img/dish-hotpot.webp" alt="火鍋示意，非本店出品" width="128" height="128" loading="lazy"><div class="grow"><div class="nm">火鍋＋自助吧</div><div class="nt">菜、肉、飲料、甜點自己取，小孩好挑。示意照片，非本店出品</div></div><div class="pr">依身高</div></div>
   <div class="avoid"><b>注意：</b>未主動出示證件會現場量身高。這是吃到飽，節奏比桌菜快、人也較多。電話 04-2523-8630。</div>
   <p class="est">收費取自店家公開說明與食記，請再向店家確認 12 月價格與包廂。</p>
   <div class="row2"><a class="btn" href="https://inline.app/booking/-MPquRqKcWmiNt00V4wS:inline-live-2?language=zh-tw">線上訂位</a><a class="btn ghost" href="tel:0425238630">撥電話</a></div>

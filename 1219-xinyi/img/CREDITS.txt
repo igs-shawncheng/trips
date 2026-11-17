@@ -1,0 +1,99 @@
+Photos on this page were downloaded from Wikimedia Commons
+(not hotlinked) and resized for the itinerary page.
+Original authors and licenses:
+
+a-a11-tree.webp
+  Source: SKM Christmas tree at SKM Taipei Xinyi Place A11 03 20251215.jpg
+  Author: 阿道
+  License: CC BY-SA 4.0
+  https://commons.wikimedia.org/wiki/File:SKM_Christmas_tree_at_SKM_Taipei_Xinyi_Place_A11_03_20251215.jpg
+
+a-a11-crowd.webp
+  Source: People photographing SKM Christmas tree at SKM Taipei Xinyi Place A11 20231224.jpg
+  Author: Solomon203
+  License: CC BY-SA 4.0
+  https://commons.wikimedia.org/wiki/File:People_photographing_SKM_Christmas_tree_at_SKM_Taipei_Xinyi_Place_A11_20231224.jpg
+
+a-xiangti.webp
+  Source: Christmas Tree at Xinyi Xiangti Avenue 20251123.jpg
+  Author: Heeheemalu
+  License: CC BY-SA 4.0
+  https://commons.wikimedia.org/wiki/File:Christmas_Tree_at_Xinyi_Xiangti_Avenue_20251123.jpg
+
+a-bellavita.webp
+  Source: Central Court of Bellavita 1F 20160327a.JPG
+  Author: 玄史生
+  License: CC0 1.0
+  https://commons.wikimedia.org/wiki/File:Central_Court_of_Bellavita_1F_20160327a.JPG
+
+a-bellavita-night.webp
+  Source: Bellavita 20111224 night.jpg
+  Author: Wei-Te Wong
+  License: CC BY-SA 2.0
+  https://commons.wikimedia.org/wiki/File:Bellavita_20111224_night.jpg
+
+b-path.webp
+  Source: 后豐鐵馬道.jpg
+  Author: Fcuk1203
+  License: CC BY-SA 3.0
+  https://commons.wikimedia.org/wiki/File:%E5%90%8E%E8%B1%90%E9%90%B5%E9%A6%AC%E9%81%93.jpg
+
+b-bridge.webp
+  Source: 2014年的大甲溪花樑鋼橋.jpg
+  Author: Fcuk1203
+  License: CC BY-SA 3.0
+  https://commons.wikimedia.org/wiki/File:2014%E5%B9%B4%E7%9A%84%E5%A4%A7%E7%94%B2%E6%BA%AA%E8%8A%B1%E6%A8%91%E9%8B%BC%E6%A9%8B.jpg
+
+b-tunnel.webp
+  Source: Houli Bikeway Tunnel 01.jpg
+  Author: Roben
+  License: CC BY 2.0
+  https://commons.wikimedia.org/wiki/File:Houli_Bikeway_Tunnel_01.jpg
+
+b-dongfeng.webp
+  Source: 東豐綠色走廊2.jpg
+  Author: 林高志
+  License: CC BY-SA 4.0
+  https://commons.wikimedia.org/wiki/File:%E6%9D%B1%E8%B1%90%E7%B6%A0%E8%89%B2%E8%B5%B0%E5%BB%8A2.jpg
+
+b-childseat.webp
+  Source: Children's bicycle seat, Bologna.jpg
+  Author: MenkinAlRire
+  License: CC BY-SA 4.0
+  https://commons.wikimedia.org/wiki/File:Children%27s_bicycle_seat,_Bologna.jpg
+  Note: Generic child-seat illustration; not 鐵馬哥 equipment.
+
+dish-xlb.webp
+  Source: Six Yank Sing Shanghai Dumplings (Xiao long bao) (24441687036).jpg
+  Author: Willis Lam
+  License: CC BY-SA 2.0
+  https://commons.wikimedia.org/wiki/File:Six_Yank_Sing_Shanghai_Dumplings_(Xiao_long_bao)_(24441687036).jpg
+  Note: Xiaolongbao illustration only; not a dish from 漢來 or 紅豆食府.
+
+dish-hainan.webp
+  Source: Food 海南雞飯, Mamak檔, 星馬料理, 台北 (24234958253).jpg
+  Author: bryan... from Taipei, Taiwan
+  License: CC BY-SA 2.0
+  https://commons.wikimedia.org/wiki/File:Food_%E6%B5%B7%E5%8D%97%E9%9B%9E%E9%A3%AF,_Mamak%E6%AA%94,_%E6%98%9F%E9%A6%AC%E6%96%99%E7%90%86,_%E5%8F%B0%E5%8C%97_(24234958253).jpg
+  Note: Hainanese chicken rice illustration only; not a YABI Kitchen dish.
+
+dish-pasta.webp
+  Source: Spaghetti cacio e pepe.jpg
+  Author: DC
+  License: CC BY-SA 3.0
+  https://commons.wikimedia.org/wiki/File:Spaghetti_cacio_e_pepe.jpg
+  Note: Pasta illustration only; not a dish from 天奕 or 梨子咖啡館.
+
+dish-hotpot.webp
+  Source: Chinese cabbage hot pot (3190479925).jpg
+  Author: pelican from Tokyo, Japan
+  License: CC BY-SA 2.0
+  https://commons.wikimedia.org/wiki/File:Chinese_cabbage_hot_pot_(3190479925).jpg
+  Note: Hot pot illustration only; not a 享千葉 dish.
+
+License texts:
+  CC BY 2.0     https://creativecommons.org/licenses/by/2.0/
+  CC BY-SA 2.0  https://creativecommons.org/licenses/by-sa/2.0/
+  CC BY-SA 3.0  https://creativecommons.org/licenses/by-sa/3.0/
+  CC BY-SA 4.0  https://creativecommons.org/licenses/by-sa/4.0/
+  CC0 1.0       https://creativecommons.org/publicdomain/zero/1.0/
